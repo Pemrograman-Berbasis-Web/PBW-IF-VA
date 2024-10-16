@@ -1,0 +1,28 @@
+/* border : [ukuran] [jenis] [warna] */
+
+/* 
+solid - garis lurus dan solid.
+dashed: garis putus-putus.
+dotted: garis titik-titik.
+double: garis ganda.
+groove: garis bercorak tiga dimensi seperti terlihat dari dalam lubang.
+ridge: garis bercorak tiga dimensi seperti terlihat dari luar lubang.
+inset: garis bercorak tiga dimensi seperti terlihat masuk ke dalam lubang.
+outset: garis bercorak tiga dimensi seperti terlihat keluar dari lubang. */
+
+/* Mengatur border pada elemen div dengan id "contoh" */
+#contoh {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+/* Mengatur border dengan ukuran 2 piksel */
+#contoh {
+  border-width: 2px;
+}
+
+/* Mengatur border dengan warna hitam */
+#contoh {
+  border-color: black;
+}
