@@ -9,6 +9,7 @@ Dokumen ini dibuat untuk menyimpan tugas **PRAKTIKUM** dalam mata kuliah Pemrogr
 
 ### Struktur Direktori
 - `Praktikum01`: Berisi Modul-HTML
+- `Praktikum02`: Berisi Modul-CSS
 
 ## Tujuan Proyek
 1. **Penyimpanan dan Manajemen Kode Sumber:** Menyimpan semua kode sumber dalam satu tempat yang terorganisir.

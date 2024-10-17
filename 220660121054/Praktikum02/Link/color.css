@@ -1,0 +1,4 @@
+/* warna teks pada semua link akan bewarna biru */
+a {
+    color: blue;
+  }

@@ -1,0 +1,4 @@
+/* ketika link sedang ditekan akan memiliki warna hijau */
+a:active {
+    color: green;
+  }

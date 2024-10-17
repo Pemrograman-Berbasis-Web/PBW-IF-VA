@@ -1,0 +1,4 @@
+/* elemen input dengan tipe submit tidak akan ditampilkan pada halaman web */
+input[type="submit"] {
+    display: none;
+  }
