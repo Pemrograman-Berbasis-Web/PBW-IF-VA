@@ -1,0 +1,4 @@
+/* font element p akan dirender menggunakan font "Helvetica Neue" */
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }

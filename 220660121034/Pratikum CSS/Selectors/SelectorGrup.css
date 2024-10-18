@@ -1,0 +1,4 @@
+/* Mengatur style pada elemen h1 dan h2 */
+h1, h2 {
+    color: red;
+  }
