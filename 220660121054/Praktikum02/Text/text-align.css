@@ -1,0 +1,9 @@
+/* element h1 akan memiliki text align tengah */
+h1 {
+    text-align: center;
+  }
+  
+  /* element p akan memiliki text align rata kanan kiri */
+  p {
+    text-align: justify;
+  }

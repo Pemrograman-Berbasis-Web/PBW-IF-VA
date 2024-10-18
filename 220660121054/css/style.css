@@ -1,0 +1,75 @@
+/* Mengatur style untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style untuk judul utama */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style untuk judul bagian (h2) */
+h2 {
+    color: #3498db;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Style untuk sub-judul (h3) */
+h3 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Style untuk daftar tak terurut (ul) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Style untuk nested list */
+ul ul {
+    margin-left: 20px;
+}
+
+/* Style untuk link */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Menambahkan emoji khusus */
+ul li a[href*="https://github.com/"]::after {
+    content: " 🔥";
+    color: #e74c3c;
+}
+
+/* Style untuk mengatur layout halaman */
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
