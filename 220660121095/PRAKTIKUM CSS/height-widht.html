@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Height, Width, & Overflow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .box {
+      /* Tinggi elemen */
+      height: 200px;
+      /* Lebar elemen */
+      width: 200px;
+      /* Menyembunyikan konten yang melebihi batas */
+      overflow: hidden;
+      /* Warna latar belakang */
+      background-color: #fff;
+      /* Border untuk kotak */
+      border: 1px solid #ccc;
+      /* Jarak dalam elemen */
+      padding: 10px;
+      /* Jarak antar elemen */
+      margin-bottom: 20px;
+    }
+
+    .box-auto {
+      /* Tinggi elemen */
+      height: 200px;
+      /* Lebar elemen */
+      width: 200px;
+      /* Menampilkan scrollbar jika konten melebihi batas */
+      overflow: auto;
+      /* Warna latar belakang */
+      background-color: #fff;
+      /* Border untuk kotak */
+      border: 1px solid #ccc;
+      /* Jarak dalam elemen */
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h2>Contoh Box (Overflow Hidden)</h2>
+    <p>Ini adalah teks yang cukup panjang dan akan keluar dari batas elemen.</p>
+  </div>
+
+  <div class="box-auto">
+    <h2>Contoh Box (Overflow Auto)</h2>
+    <p>Ini adalah teks yang cukup panjang dan akan menampilkan scrollbar jika melebihi batas elemen. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit. Vestibulum vel dolor vel enim efficitur posuere. Nulla facilisi.</p>
+  </div>
+</body>
+
+</html>
