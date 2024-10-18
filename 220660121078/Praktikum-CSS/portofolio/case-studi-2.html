@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Pribadi</title>
-  <link rel="stylesheet" href="css/style2.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
+  <body>
     <header>
       <h2 class="name">Alip Rizky Firdaus</h2>
-      <img src="assets/img/Alip Rizky TI.png" alt="Foto Profil" class="profile-img">
-      <blockquote>
-        "Pemrograman itu indah"
-      </blockquote>
+      <img
+        src="assets/img/Alip Rizky TI.png"
+        alt="Foto Profil"
+        class="profile-img"
+      />
+      <blockquote>"Pemrograman itu indah"</blockquote>
     </header>
 
     <main>
@@ -64,36 +66,43 @@
           </ol>
         </div>
       </section>
+
+      <!-- Bagian audio dan video berdampingan -->
+      <section class="audio-video">
+        <div class="audio">
+          <h2>Lagu Favorit</h2>
+          <div class="audio-player">
+            <audio controls>
+              <source src="assets/audio/blue-bird.mp3" type="audio/mp3" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+
+        <div class="video">
+          <h2>Karya Video</h2>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/M_CYMdG4owA?si=xqHivhdiLAzw4BVj"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- Bagian pemutar audio -->
-    <section class="audio">
-      <h2>Lagu Favorit</h2>
-      <div class="audio-player">
-        <audio controls>
-          <source src="assets/audio/blue-bird.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </section>
-
-    <!-- Bagian video karya -->
-    <section class="video">
-      <h2>Karya Video</h2>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/M_CYMdG4owA?si=xqHivhdiLAzw4BVj" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <a href="https://www.linkedin.com/in/alip-rizky-firdaus-029650310" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/CallMeARF" target="_blank">GitHub</a>
-    <p>&copy; 2024 Alip Rizky Firdaus. All Rights Reserved.</p>
-  </footer>
-</body>
-
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/alip-rizky-firdaus-029650310"
+        target="_blank"
+        >LinkedIn</a
+      >
+      |
+      <a href="https://github.com/CallMeARF" target="_blank">GitHub</a>
+      <p>&copy; 2024 Alip Rizky Firdaus. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
