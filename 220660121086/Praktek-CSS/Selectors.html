@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* 1. Element */
+    h1 {
+        color: lightseagreen;
+    }
+    /* 2. ID */
+    #header {
+         background-color: lightgray;
+         padding: 10px;
+    }
+    /* 3. Class */
+    .teks {
+        font-size: 14px;
+        font-style: italic;
+    }
+    /* 4. Universal */
+    * {
+         margin: 2px;
+         padding: 2px;
+    }
+    /* 5. Group */
+    h2, h3 {
+        color: mediumvioletred;
+    }
+    /* 6. Descendant */
+    div p {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    /* 7. Child */
+    div > ul {
+        list-style-type: square;
+    }
+  </style>
+</head>
+<body>
+    <h1>Contoh Selector Element</h1>
+    <h2>Selector Group dengan h2 dan h3</h2>
+    <h3 id="header">Contoh Selector ID</h3>
+    <p class="teks">Contoh Selector Class</p>
+    <div>
+      <p>Contoh Selector Descendant</p>
+      <ul>
+        <li>Item List Pertama</li>
+        <li>Item List Kedua</li>
+        <li>Item List Ketiga</li>
+      </ul>
+    </div>
+</body>
+</html>

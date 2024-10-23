@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Agung Febrian</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="hero-content">
+            <!-- Tambahkan gambar profil -->
+            <div class="profile-image">
+                <img src="Media/af.png" alt="Gambar Profil Agung Febrian">
+            </div>
+            <div class="hero-text">
+                <h1>Agung Febrian</h1>
+                <p>Pengembang Web & Desainer UI/UX</p>
+                <a href="#about" class="btn-primary">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>Tentang Saya</h2>
+                <p>Haii! Saya seorang pengembang web dan desainer UI/UX. Selain itu, saya juga seorang pembaca yang selalu mencari inspirasi dari buku-buku yang saya baca.
+                  Saya percaya teknologi harus mudah diakses dan menyenangkan, jadi saya selalu berusaha menciptakan antarmuka yang tidak hanya cantik, tetapi juga ramah pengguna.</p>
+            </div>
+        </section>
+
+        <section class="grid-section">
+            <div class="grid-row"> <!-- Baris pertama -->
+                <div class="grid-item">
+                    <h3>Pengalaman Kerja</h3>
+                    <ul>
+                        <li><strong>Administrasi</strong> - Desa Sukagalih (2021)</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Hobi</h3>
+                    <ul>
+                        <li>Membaca</li>
+                        <li>Menulis</li>
+                        <li>Renang</li>
+                        <li>Menggambar</li>
+                        <li>Mendengarkan Musik</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Lagu Favorit</h3>
+                    <audio controls>
+                        <source src="Media/Magnetic.mp3" type="audio/mp3">
+                    </audio>
+                    <audio controls>
+                        <source src="Media/Feelin Go(o)d.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="grid-row-full"> <!-- Baris kedua -->
+                <div class="grid-item">
+                    <h3>Video Karya</h3>
+                    <iframe width="100%" height="400" src="Media/LostWithensemble.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <p>&copy; 2024 Agung Febrian. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/agngfebrian" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/agung-febrian-aaa21a334/" target="_blank">LinkedIn</a> |
+            <a href="https://www.hoyolab.com/accountCenter/postList?id=182523009" target="_blank">Hoyolab</a>
+        </div>
+    </footer>
+
+    <!-- Tambahkan script untuk animasi scroll -->
+    <script>
+        document.querySelector('.btn-primary').addEventListener('click', function (e) {
+            e.preventDefault(); // Mencegah default action
+
+            // Scroll ke elemen dengan ID "about"
+            document.querySelector('#about').scrollIntoView({
+                behavior: 'smooth', // Efek animasi smooth
+                block: 'start'      // Mulai dari bagian atas elemen
+            });
+        });
+    </script>
+</body>
+</html>
