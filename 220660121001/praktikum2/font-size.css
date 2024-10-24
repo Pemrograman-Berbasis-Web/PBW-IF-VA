@@ -1,0 +1,9 @@
+/* element h1 akan memiliki font size 36px */
+h1 {
+    font-size: 36px;
+  }
+  
+  /* element p akan memiliki font size 1.2em */
+  p {
+    font-size: 1.2em;
+  }

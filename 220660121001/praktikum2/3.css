@@ -1,0 +1,29 @@
+/* Mengatur height dan width sebesar 200px */
+div {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* Mengatur height dan width sebesar 200px */
+  div {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* Mengatur height sebesar 50% dari lebar elemen yang menjadi parent */
+  div {
+    height: 50%;
+    width: 100%;
+  }
+  /* Mengatur height dan width sebesar 200px dan menyembunyikan konten yang keluar dari elemen */
+div {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+  }
+  /* Mengatur height dan width sebesar 200px dan menampilkan scroll bar jika konten melebihi ukuran elemen */
+div {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+  }
