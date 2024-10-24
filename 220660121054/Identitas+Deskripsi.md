@@ -1,4 +1,10 @@
-# Virzan Pasa Nugraha
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
+
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Virzan+Pasa Nugraha!;" />
+</h1>
+
+<br/>
 
 - **NIM:** 220660121054
 - **Kelas:** IF-VA
@@ -21,4 +27,4 @@ Dokumen ini dibuat untuk menyimpan tugas **PRAKTIKUM** dalam mata kuliah Pemrogr
 3. **Pengelolaan Data:** Mempermudah pengelolaan dan pencarian data terkait tugas praktikum.
     
 
-![snake gif](https://github.com/PBW-IF-VA/220660121054/220660121054/Identitas%2BDeskripsi.md/blob/output/github-snake-dark.svg)
+
