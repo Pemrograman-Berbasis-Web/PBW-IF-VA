@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Selector CSS</title>
+    <style>
+        /* Mengatur style pada elemen h1 */
+        h1 {
+            color: blue;
+        }
+
+        /* Mengatur style pada elemen dengan id "header" */
+        #header {
+            background-color: gray;
+        }
+
+        /* Mengatur style pada elemen dengan class "teks" */
+        .teks {
+            font-size: 16px;
+        }
+
+        /* Mengatur margin dan padding pada semua elemen HTML */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Mengatur style pada elemen h1 dan h2 */
+        h1, h2 {
+            color: red;
+        }
+
+        /* Mengatur style pada elemen p yang berada di dalam elemen div */
+        div p {
+            font-weight: bold;
+        }
+
+        /* Mengatur style pada elemen ul yang menjadi anak langsung dari elemen div */
+        div > ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Judul Utama</h1>
+    <h2>Sub Judul</h2>
+
+    <div id="header">
+        <p>Ini adalah teks dalam div dengan id "header".</p>
+    </div>
+
+    <div>
+        <p>Ini adalah teks dalam div tanpa id, tetapi tetap bold.</p>
+    </div>
+
+    <ul>
+        <li>Item tanpa parent div</li>
+    </ul>
+
+    <div>
+        <ul>
+            <li>Item dalam div, tapi bukan anak langsung.</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Item pertama</li>
+            <li>Item kedua</li>
+        </ul>
+    </div>
+
+    <p class="teks">Ini adalah teks dengan class "teks" dan font-size 16px.</p>
+
+</body>
+</html>
