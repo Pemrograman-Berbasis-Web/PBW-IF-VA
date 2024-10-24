@@ -1,0 +1,5 @@
+/* Mengatur margin dan padding pada semua elemen HTML */
+* {
+    margin: 0;
+    padding: 0;
+  }

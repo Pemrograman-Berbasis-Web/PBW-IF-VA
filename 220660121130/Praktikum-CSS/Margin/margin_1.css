@@ -1,0 +1,34 @@
+/* Mengatur margin sebesar 10px untuk semua sisi */
+div {
+  margin: 10px;
+}
+
+/* Mengatur margin sebesar 10px untuk sisi atas dan bawah, dan 20px untuk sisi kiri dan kanan */
+div {
+  margin: 10px 20px;
+}
+
+/* Mengatur margin sebesar 10px untuk sisi atas, 20px untuk sisi kanan, 30px untuk sisi bawah, dan 40px untuk sisi kiri */
+div {
+  margin: 10px 20px 30px 40px;
+}
+
+/* Mengatur margin secara otomatis pada sisi kiri dan kanan, sehingga elemen HTML berada di tengah secara horizontal */
+div {
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%; /* Mengatur lebar elemen */
+  background-color: #fff; /* Warna latar belakang */
+  padding: 20px; /* Jarak dalam elemen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+  margin: 0 auto; /* Mengatur margin atas/bawah 0 dan tengah secara horizontal */
+}

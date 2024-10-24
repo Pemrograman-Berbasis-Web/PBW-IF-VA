@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%; /* Mengatur lebar elemen */
+    background-color: #fff; /* Warna latar belakang */
+    padding: 20px; /* Jarak dalam elemen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+    margin: 0 auto; /* Mengatur margin atas/bawah 0 dan tengah secara horizontal */
+}

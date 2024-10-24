@@ -1,0 +1,24 @@
+/* Mengatur margin secara otomatis pada sisi kiri dan kanan, sehingga elemen HTML berada di tengah secara horizontal
+div {
+  margin: 0 auto;
+  } */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    /* Mengatur lebar elemen */
+    width: 50%;
+    /* Warna latar belakang */
+    background-color: #fff;
+    /* Jarak dalam elemen */
+    padding: 20px;
+    /* Bayangan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Mengatur margin atas/bawah 0 dan tengah secara horizontal */
+    margin: 0 auto;
+  }

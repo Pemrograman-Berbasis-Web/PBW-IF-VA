@@ -1,35 +1,25 @@
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  /* Mengubah font menjadi Roboto */
-  background-color: #f4f4f4;
-  color: #333;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
   text-align: center;
   padding: 20px;
   background-color: #006d77;
-  /* Warna biru kehijauan */
   color: white;
-  border-radius: 8px;
-  /* Mengurangi border-radius */
+  width: 100%;
 }
 
 .name {
   color: #e9ecef;
-  /* Membuat nama lebih terlihat */
 }
 
 .profile-img {
@@ -44,155 +34,137 @@ blockquote {
   padding: 10px;
   font-style: italic;
   color: #e9ecef;
-  /* Warna teks kutipan */
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  width: 100%;
 }
 
+/* Section dengan warna dan padding */
 section {
-  background-color: #fff;
-  /* Putih untuk bagian genap */
-  padding: 15px;
-  border-radius: 4px;
-  /* Mengurangi border-radius */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px; /* Memberi jarak antar section */
+  width: 100%;
+  margin-bottom: 20px; /* Jarak antar section */
+  background-color: #fff; /* Memastikan warna putih untuk semua section */
+}
+
+/* Warna section */
+.description {
+  background-color: #e0e0e0; /* Abu */
+}
+
+.experience {
+  background-color: #f4f4f4; /* Putih */
 }
 
 .hobbies-skills {
+  background-color: #e0e0e0; /* Abu */
+}
+
+/* Bagian Audio dan Video */
+.audio-video {
+  background-color: #f4f4f4; /* Putih */
   display: flex;
-  justify-content: center;
-  /* Rata tengah */
+  justify-content: space-between; /* Mengatur jarak antar elemen */
+  align-items: flex-start; /* Rata atas */
+  gap: 20px; /* Jarak antar elemen audio dan video */
+}
+
+.audio,
+.video {
+  flex: 1; /* Menyusun kedua elemen dengan lebar yang sama */
+  padding: 15px; /* Jarak dalam elemen */
+  border-radius: 4px; /* Sudut melengkung */
+}
+
+/* Kustomisasi Hobi dan Skill */
+.hobbies-skills {
+  display: flex;
+  justify-content: space-around;
   gap: 40px;
-  /* Jarak antar kolom hobi dan skill */
 }
 
 .hobbies,
 .skills {
   flex: 1;
-  /* Membagi lebar kolom secara merata */
   text-align: center;
-  /* Rata tengah untuk teks di dalam kolom */
 }
 
 .hobbies ul,
 .skills ol {
-  padding: 0;
-  /* Menghapus padding di ul dan ol */
   list-style-type: none;
-  /* Menghilangkan angka dan bullet */
 }
 
 .hobbies li,
 .skills li {
   margin: 10px 0;
-  /* Jarak antar item */
   padding: 10px;
-  /* Padding item */
-  border-radius: 4px;
-  /* Radius sudut untuk item */
-  transition: background-color 0.3s;
-  /* Transisi untuk efek hover */
-}
-
-/* Background color untuk hobi dan skill */
-.hobbies li,
-.skills li {
   background-color: #e9ecef;
-  /* Warna untuk hobi item ganjil */
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .hobbies li:hover,
 .skills li:hover {
   background-color: #cbd5e1;
-  /* Warna saat hover */
 }
 
 h2 {
   color: #006d77;
-  /* Warna judul yang lebih sesuai */
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
 table,
 th,
 td {
   border: 1px solid #ddd;
-}
-
-th,
-td {
   padding: 10px;
   text-align: left;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-  /* Warna abu muda untuk baris genap */
-}
-
-ul {
-  list-style-type: none;
-  /* Menghilangkan bullet point */
-  padding: 0;
-}
-
-ul li {
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-}
-
+/* Pemutar Audio */
 .audio-player {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   border: 2px solid #006d77;
-  /* Border audio */
-  border-radius: 4px;
-  /* Mengurangi border-radius */
   background-color: #e9ecef;
 }
 
+/* Kontainer Video */
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%; /* Memastikan lebar kontainer video 100% */
 }
 
 iframe {
   width: 100%;
-  max-width: 560px;
-  /* Maksimal lebar video */
   height: 315px;
-  /* Tinggi video */
-  border-radius: 4px;
-  /* Mengurangi border-radius */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px; /* Sudut melengkung pada video */
 }
 
+/* Footer */
 footer {
   background-color: #006d77;
-  /* Warna footer */
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 20px;
   position: relative;
   bottom: 0;
   width: 100%;
+  margin-top: 20px;
 }
 
 footer a {
   color: white;
-  /* Warna link di footer */
   text-decoration: none;
   margin: 0 10px;
 }

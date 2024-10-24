@@ -1,0 +1,5 @@
+/* Mengatur style pada elemen p yang berada di dalam elemen div */
+div p {
+    font-weight: bold;
+  }
+  

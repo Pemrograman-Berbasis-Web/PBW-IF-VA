@@ -1,0 +1,9 @@
+/* sel pada tabel akan menggunkan warna abu-abu */
+td {
+    background-color: #f5f5f5;
+  }
+  
+  /* baris ganjil pada tabel akan menggunakan warna abu-abu yang lebih terang */
+  tr:nth-child(odd) {
+    background-color: #e0e0e0;
+  }
