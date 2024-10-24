@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Kemal Hapidz Prastiawan</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet"> <!-- Font Merriweather & Open Sans -->
+</head>
+
+<body>
+    <!-- Tambahkan tombol di pojok kanan atas -->
+    <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+
+    <header class="new-hero-section">
+        <div class="new-hero-content">
+            <!-- Tambahkan gambar profil -->
+            <div class="profile-image-new">
+                <img src="assets/IMG_20241024_100839.jpg" alt="Gambar Profil Kemal Hapidz Prastiawan">
+            </div>
+            <div class="new-hero-text">
+                <h1>Kemal Hapidz Prastiawan</h1>
+                <p>Pebisnis & Pengembang Teknologi</p>
+                <a href="#about" class="new-btn-primary">Selengkapnya</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="about-content-new">
+                <h2>Tentang Saya</h2>
+                <p>Saya seorang pebisnis dan juga pengembang teknologi dengan pengalaman lebih dari 10 tahun dalam industri kreatif. Fokus saya adalah menggabungkan teknologi dengan inovasi untuk menciptakan solusi yang efisien dan elegan.</p>
+            </div>
+        </section>
+
+        <section class="grid-section-new">
+            <div class="grid-row"> <!-- Baris pertama -->
+                <div class="grid-item-new">
+                    <h3>Pengalaman Kerja</h3>
+                    <ul>
+                        <li><strong>CEO</strong> - Pidzcom (2014-Present)</li>
+                    </ul>
+                </div>
+                <div class="grid-item-new">
+                    <h3>Hobi</h3>
+                    <ul>
+                        <li>Futsal</li>
+                        <li>Sepakbola</li>
+                        <li>Jogging</li>
+                    </ul>
+                </div>
+                <div class="grid-item-new">
+                    <h3>Lagu Favorit</h3>
+                    <audio controls>
+                        <source src="assets/FEEL KOPLO.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="grid-row-full-new"> <!-- Baris kedua -->
+                <div class="grid-item-new">
+                    <h3>Video Karya</h3>
+                    <iframe width="100%" height="400" src="assets/VID_20241023_150058.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section-new">
+        <p>&copy; 2024 Kemal Hapidz Prastiawan. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/sir_malll" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle Script
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        let darkMode = false;
+
+        themeToggle.addEventListener('click', function () {
+            darkMode = !darkMode;
+            if (darkMode) {
+                body.classList.add('dark-mode');
+                themeToggle.textContent = '☀️ Light Mode';
+            } else {
+                body.classList.remove('dark-mode');
+                themeToggle.textContent = '🌙 Dark Mode';
+            }
+        });
+    </script>
+</body>
+</html>
