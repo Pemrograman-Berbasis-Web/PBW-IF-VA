@@ -21,4 +21,4 @@ Dokumen ini dibuat untuk menyimpan tugas **PRAKTIKUM** dalam mata kuliah Pemrogr
 3. **Pengelolaan Data:** Mempermudah pengelolaan dan pencarian data terkait tugas praktikum.
     
 
-![snake gif](https://github.com/220660121054/220660121054/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/PBW-IF-VA/220660121054/220660121054/Identitas%2BDeskripsi.md/blob/output/github-snake-dark.svg)
