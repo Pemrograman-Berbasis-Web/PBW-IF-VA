@@ -20,3 +20,5 @@ Dokumen ini dibuat untuk menyimpan tugas **PRAKTIKUM** dalam mata kuliah Pemrogr
 2. **Portofolio dan Profil Profesional:** Mengembangkan portofolio yang dapat dipamerkan untuk menunjukkan keterampilan dan proyek yang telah dikerjakan.
 3. **Pengelolaan Data:** Mempermudah pengelolaan dan pencarian data terkait tugas praktikum.
     
+
+![snake gif](https://github.com/220660121054/220660121054/blob/output/github-snake-dark.svg)
