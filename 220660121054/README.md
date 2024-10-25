@@ -4,9 +4,8 @@
 
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hai+Dengan!+Saya+Virzan+Pasa+Nugraha!&color=FF5733" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+I'm+Virzan+Pasa Nugraha!;" />
 </h1>
-
 
 <br/>
 
