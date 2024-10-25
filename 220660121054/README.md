@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    <img src="https://via.placeholder.com/800" alt="Background" style="width: 100%; height: auto; opacity: 0.5;" />
+    <img src="https://i.imgur.com/Ag6aToG.gif" alt="Fire Spark GIF" width="200px" />
 </p>
 
 <p align="center">
