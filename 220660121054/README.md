@@ -11,6 +11,14 @@
     <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,react" /></a>
 </p>
 
+<p align="center">
+    <p align="center">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1cae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE2NzE5OTI4NTg&ixlib=rb-4.0.3&q=80&w=400" alt="Background" style="width: 100%; height: auto; opacity: 0.5; position: absolute; z-index: -1;" />
+</p>
+
+</p>
+
+
 
 
 <br/>
