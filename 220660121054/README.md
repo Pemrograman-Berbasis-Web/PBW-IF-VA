@@ -1,40 +1,30 @@
-# Modul Praktikum Pemrograman Berbasis Web
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge" />
 
-# Daftar Isi
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Virzan+Pasa Nugraha!;" />
+</h1>
 
-## 1. Tools Pendukung
-- [Version Control dengan Git](#71-version-control-dengan-git)
-  - [Git](https://git-scm.com/downloads)
-- [Development Tools](https://www.apachefriends.org/)
-  - [Xampp](https://www.apachefriends.org/)
-  - [Laragon](https://laragon.org/download/)
-- [Deployment](#73-deployment)
-    - [Netlify](https://www.netlify.com/)
-    - [000webhost](https://id.000webhost.com/)
-    - [Vercel](https://vercel.com/)
-- [Code Editor](#code-editor)
-    - [Visual Studio Code](https://code.visualstudio.com/download)
-  
-## 2. HTML (HyperText Markup Language)
-- [Pengenalan HTML](https://github.com/Pemrograman-Berbasis-Web/modul-pbw.github.io/blob/main/2-Modul%20HTML/modul-html.md) 🔥
+<br/>
 
-## 3. CSS (Cascading Style Sheets)
-- [Pengenalan CSS](/3-Modul%20CSS/3-Modul-CSS.md) 🔥
+- **NIM:** 220660121054
+- **Kelas:** IF-VA
+- **Program Studi:** Informatika (FTI)
 
-## 4. JavaScript
-- [Pengenalan JavaScript](https://github.com/Pemrograman-Berbasis-Web/modul-pbw.github.io/tree/main/4-Modul%20JavaScript) 🔥
+## Deskripsi Proyek
+Dokumen ini dibuat untuk menyimpan tugas **PRAKTIKUM** dalam mata kuliah Pemrograman Web. Struktur direktori dipisahkan untuk memudahkan pencarian dan manajemen file.
 
-## 5. Framework dan Library
-- [Pengenalan Framework Front End](#51-pengenalan-framework-Front-End)
+### Struktur Direktori
+- `.github/workflows`
+- `Praktikum01`: Berisi Modul-HTML
+- `Praktikum02`: Berisi Modul-CSS
+- `Praktikum03`: Berisi Modul-JavaScript
+- `css`
+- `Hasil Web Portofolio`: Berisi tampilan website
 
-## 6. Backend Development
-- [Pengenalan Backend](#61-pengenalan-backend)
+## Tujuan Proyek
+1. **Penyimpanan dan Manajemen Kode Sumber:** Menyimpan semua kode sumber dalam satu tempat yang terorganisir.
+2. **Portofolio dan Profil Profesional:** Mengembangkan portofolio yang dapat dipamerkan untuk menunjukkan keterampilan dan proyek yang telah dikerjakan.
+3. **Pengelolaan Data:** Mempermudah pengelolaan dan pencarian data terkait tugas praktikum.
+    
 
-## 7. Studi Kasus dan Proyek
-- [Studi Kasus](#81-studi-kasus)
-- [Proyek Akhir](#82-proyek-akhir)
 
-## 8. Sumber Daya Tambahan
-- [Buku dan Artikel](buku-dan-artikel)
-- [Komunitas dan Forum](komunitas-dan-forum)
-- [Repsitori Github (PBW)](https://github.com/Pemrograman-Berbasis-Web)
