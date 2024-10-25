@@ -9,6 +9,17 @@
 
 <h3 align="center">Pengembang perangkat lunak yang bersemangat</h3>
 <br/>
+<div align="tengah">
+ 
+ 🔭 Saat ini saya sedang mengerjakan **Proyek**
+ 
+ 🌱 Saat ini saya sedang mempelajari **HTML, CSS, JS**
+
+💬 Tanyakan kepada saya tentang **Node.js, React, Firebase... atau apa pun [di sini](https://github.com/adriante1/PBW-IF-VA/issues)**
+
+⚡ Fakta menarik **SEKARANG TAHUN 2024**
+
+ </div>
 
 - **NIM:** 220660121054
 - **Kelas:** IF-VA
