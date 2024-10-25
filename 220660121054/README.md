@@ -2,22 +2,10 @@
     <img src="https://visitor-badge.laobi.icu/badge?page_id=adriantea1.PBW-IF-VA&title=Mengunjungi" alt="Visitor Badge" />
 </p>
 
+
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+I'm+Virzan+Pasa+Nugraha!&color=FF5733" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hai+Dengan!+Saya+Virzan+Pasa+Nugraha!&color=FF5733" alt="Typing SVG" />
 </h1>
-
-<p align="center">
-    <img src="https://i.imgur.com/Ag6aToG.gif" alt="Fire Spark GIF" width="200px" />
-</p>
-
-<p align="center">
-    <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,react" /></a>
-</p>
-
-
-</p>
-
-
 
 
 <br/>
