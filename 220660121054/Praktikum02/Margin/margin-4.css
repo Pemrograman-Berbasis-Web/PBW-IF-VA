@@ -1,0 +1,4 @@
+/* Mengatur margin secara otomatis pada sisi kiri dan kanan, sehingga elemen HTML berada di tengah secara horizontal */
+div {
+    margin: 0 auto;
+    }

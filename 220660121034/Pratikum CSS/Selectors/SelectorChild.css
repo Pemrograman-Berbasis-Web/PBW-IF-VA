@@ -1,0 +1,4 @@
+/* Mengatur style pada elemen ul yang menjadi anak langsung dari elemen div */
+div > ul {
+    list-style: none;
+  }

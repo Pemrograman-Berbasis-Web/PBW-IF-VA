@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("6260752.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Wrapper styling */
+.wrapper {
+  background-color: #85a8f3;
+  padding: 16px;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Container for the tasks */
+.container {
+  width: 670px;
+  padding: 30px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px;
+  gap: 20px;
+  border-color: aqua;
+  max-width: 800px;
+}
+
+/* Stats container */
+.stats-container {
+  background-color: #030b46;
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.stats-container .detail h1 {
+  font-size: 50px;
+  margin-top: auto;
+  margin-bottom: 35px;
+}
+.stats-container .detail h1 span {
+  color: #5f8beb;
+}
+
+.stats-container .detail p {
+  font-size: 25px;
+  font-style: italic;
+}
+/* Progress bar */
+#progressBar {
+  width: 120%;
+  height: 15px;
+  background-color: #e6e6f1;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+#progress {
+  height: 15px;
+  background-color: #7768e7;
+  border-radius: 5px;
+  width: 0;
+}
+/* Styling untuk persentase progress */
+#progressPercentage {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* Stats numbers (circle) */
+.stats-numbers {
+  font-size: 2.5rem;
+  color: #fbfbfb;
+  background-color: #5f8beb;
+  padding: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  font-family: Helvetica;
+}
+
+/* Task form styling */
+#taskForm {
+  display: flex;
+  background-color: #030b46;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#taskInput,
+#deadlineInput,
+#descriptionInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dedfed;
+  color: #565454;
+  outline: none;
+}
+
+#taskForm button {
+  background-color: #91ace5;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect on taskForm button */
+#taskForm button:hover {
+  background-color: #6a55e0;
+}
+
+/* Task list styling */
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+/* Task description styling */
+.task .description {
+  font-size: 0.9em;
+  color: #b6b6b6;
+  margin: 4px 0 8px 0;
+  flex-direction: column;
+}
+
+/* Task container styling */
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #030b46;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Title and description inside task */
+.task .title-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Task deadline styling */
+.task .deadline {
+  font-size: 0.9em;
+  color: #ddd;
+  position: absolute; /* Menjadikan deadline terpisah dari aliran layout */
+  top: 50%; /* Posisi vertikal di tengah */
+  right: 10px; /* Posisi horizontal di sebelah kanan */
+  transform: translateY(-30%);
+  margin-right: 130px;
+}
+
+/* Action buttons (edit, complete, delete) */
+.task .actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.task .actions button {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task .actions button:hover {
+  background-color: #29622c;
+}
+
+.task .actions .delete {
+  background-color: #f44336;
+}
+
+.task .actions .delete:hover {
+  background-color: #7f1b19;
+}
+
+.task .actions .edit {
+  background-color: #7b6eea;
+  color: #e1e6e2;
+}
+
+.task .actions .edit:hover {
+  background-color: #32228c;
+}
+
+/* Styles for task when editing */
+.task-editing {
+  background-color: #e8f7e1;
+
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+/* Styling input fields in edit mode */
+.task-title input,
+.description textarea,
+.deadline input {
+  border: 2px solid #030b46; /* Ganti border dengan warna biru gelap */
+  background-color: #030b46; /* Ganti latar belakang dengan biru gelap */
+  font-size: 12.5px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+
+  color: #e1e6e2; /* Warna teks lebih terang agar kontras dengan latar belakang */
+}
+
+/* Focus effect (ketika input atau textarea difokuskan) */
+.task-title input:focus,
+.description textarea:focus,
+.deadline input:focus {
+  border-color: #030b46; /* Border tetap biru gelap saat fokus */
+  background-color: #030b46; /* Latar belakang tetap biru gelap saat fokus */
+  outline: none; /* Menghilangkan outline default */
+}
+
+/* Apply the same styles for non-edited input fields */
+.task-editing .task-title input,
+.task-editing .description textarea,
+.task-editing .deadline input {
+  border: 2px solid #030b46; /* Sama dengan saat edit */
+  background-color: #030b46; /* Sama dengan saat edit */
+  color: #e1e6e2; /* Sama dengan saat edit */
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+/* Ikon kalender default (misalnya warna hitam) */
+.fas.fa-calendar {
+  color: black; /* Warna default */
+  font-size: 20px; /* Ukuran ikon */
+  margin-right: 10px;
+}
+
+/* Gaya saat task dalam mode edit */
+.task.editing .fas.fa-calendar {
+  color: white; /* Mengubah warna ikon kalender menjadi putih */
+  transition: color 0.3s ease; /* Animasi transisi halus */
+}

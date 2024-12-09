@@ -1,0 +1,7 @@
+/* element div akan menempati satu baris penuh pada halaman web dan memiliki lebar 200px serta tinggi 100px */
+div {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #f5f5f5;
+  }

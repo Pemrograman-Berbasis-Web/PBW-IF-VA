@@ -1,0 +1,4 @@
+/* batas sel pada tabel akan digabungkan sehingga tampilan tabel menjadi lebih rapi dan mudah dibaca */
+table {
+    border-collapse: collapse;
+  }

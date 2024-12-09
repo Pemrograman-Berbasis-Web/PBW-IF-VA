@@ -1,0 +1,196 @@
+/* Pastikan body menyesuaikan tinggi halaman */
+/* Menyusun body di atas */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profil Creator */
+.profile {
+    text-align: center;
+    background-color: rgba(255, 223, 186, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0; /* Memberi sedikit jarak dari atas */
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form input diatur ke atas */
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+    margin-top: 10px; /* Mengurangi jarak margin */
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-top: 10px; /* Mengurangi jarak margin dari form */
+}
+
+
+/* Heading */
+h2 {
+    color: #d2691e;
+    text-align: center;
+}
+
+/* Pesan sukses dan error */
+.success {
+    color: #4caf50;
+}
+
+.error {
+    color: #f44336;
+}
+
+/* Form input berada di tengah */
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form-input label {
+    margin: 0;
+    font-weight: bold;
+}
+
+.form-input input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+/* Tombol submit */
+button {
+    background-color: #d2691e;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #d2691e;
+    color: white;
+}
+
+td {
+    background-color: #ffe4c4;
+}
+
+a {
+    text-decoration: none;
+    color: #d2691e;
+    font-weight: bold;
+}
+
+a.edit {
+    color: #4caf50;
+}
+
+a.delete {
+    color: #f44336;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Profil Creator */
+.profile {
+    text-align: center;
+    background-color: rgba(255, 223, 186, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.profile h2 {
+    color: #d2691e;
+    margin: 0;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Profil Creator */
+.profile {
+    text-align: center;
+    background-color: rgba(255, 223, 186, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Foto Creator */
+.creator-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; /* Membuat bentuk kotak dengan sudut sedikit melengkung */
+    margin-bottom: 10px; /* Jarak antara foto dan teks profil */
+    object-fit: cover; /* Menjaga agar foto tetap proporsional dalam kotak */
+}
+

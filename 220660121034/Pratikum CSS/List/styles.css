@@ -1,0 +1,8 @@
+/* pada list tidak berurutan (ul) menggunakan sebuah gambar dengan nama icon.png */
+.dari-bullet {
+    list-style-image: url('https://icons.iconarchive.com/icons/martz90/hex/16/css-3-icon.png'); /* Gambar sebagai bullet */
+}
+
+ul {
+    padding-left: 20px; /* Memberi jarak pada daftar */
+}

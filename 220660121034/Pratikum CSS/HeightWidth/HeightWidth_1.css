@@ -1,0 +1,8 @@
+/* Set height dan width beserta padding, border, dan margin */
+div {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+  }

@@ -1,0 +1,36 @@
+/* Mengatur style pada elemen h1 */
+h1 {
+  color: blue;
+}
+
+/* Mengatur style pada elemen dengan id "header" */
+#header {
+  background-color: gray;
+}
+
+/* Mengatur style pada elemen dengan class "teks" */
+.teks {
+  font-size: 16px;
+}
+
+/* Mengatur margin dan padding pada semua elemen HTML */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Mengatur style pada elemen h2 dan h3 */
+h2,
+h3 {
+  color: red;
+}
+/* Mengatur style pada elemen p yang berada di dalam elemen div */
+div p {
+  font-weight: bold;
+  color: yellow;
+}
+/* Mengatur style pada elemen ul yang menjadi anak langsung dari elemen div */
+div > ul {
+  list-style: none;
+  color: aqua;
+}

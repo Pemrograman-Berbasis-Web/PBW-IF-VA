@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+  }
+  
+  /* Memusatkan konten dalam header */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url("../assets/img/bg.jpg");
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Menambahkan shadow pada teks untuk meningkatkan keterbacaan */
+  .name {
+    color: #e9ecef;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: xx-large;
+  }
+  
+  /* Memusatkan gambar profil */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  /* Blockquote dengan bayangan teks */
+  blockquote {
+    margin: 0px 0;
+    padding: 10px;
+    font-style: italic;
+    color: #e9ecef;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  main {
+    flex: 1;
+    width: 100%;
+  }
+  
+  /* Section dengan warna dan padding */
+  section {
+    padding: 30px;
+    width: 100%;
+    min-height: 300px;
+    opacity: 0; /* Mulai dengan opacity 0 */
+    transform: translateY(20px); /* Geser ke bawah sedikit */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Efek transisi */
+  }
+  
+  section.visible {
+    opacity: 1; /* Menampilkan elemen */
+    transform: translateY(0); /* Kembalikan ke posisi semula */
+  }
+  
+  .description,
+  .experience {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .section-content {
+    text-align: justify;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Warna section */
+  .experience,
+  .audio-video {
+    background-color: #b6bbc4; /* Putih */
+  }
+  
+  /* Bagian Audio dan Video */
+  .audio-video {
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antar elemen */
+    align-items: flex-start; /* Rata atas */
+    gap: 20px; /* Jarak antar elemen audio dan video */
+  }
+  
+  .audio,
+  .video {
+    flex: 1;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Kustomisasi Hobi dan Skill */
+  .hobbies-skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  
+  .hobbies,
+  .skills {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hobbies ul,
+  .skills ol {
+    list-style-type: none;
+  }
+  
+  .hobbies li,
+  .skills li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .hobbies li:hover,
+  .skills li:hover {
+    background-color: #cbd5e1;
+  }
+  
+  /* Mengatur lebar tabel dan memusatkan konten teks dalam tabel */
+  table {
+    width: 80%; /* Mengurangi lebar tabel */
+    border-collapse: collapse;
+    margin: 0 auto 20px auto; /* Memusatkan tabel secara horizontal */
+    background-color: #f9f9f9; /* Warna latar tabel */
+    border-radius: 8px; /* Menambahkan sudut melengkung */
+    overflow: hidden; /* Memastikan tidak ada konten yang keluar dari sudut */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; /* Memusatkan teks secara horizontal */
+    vertical-align: middle; /* Memusatkan teks secara vertikal */
+    color: #333; /* Warna teks */
+  }
+  
+  th {
+    background-color: #006d77; /* Warna background header tabel */
+    color: white; /* Warna teks header */
+  }
+  
+  td {
+    background-color: #e0f4f1; /* Warna background baris tabel */
+  }
+  
+  /* Hover effect untuk sel tabel */
+  td:hover {
+    background-color: #c1e3df; /* Mengubah warna saat hover */
+  }
+  
+  /* Pemutar Audio */
+  .audio-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #006d77;
+    background-color: #e9ecef;
+  }
+  
+  /* Kontainer Video */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Memastikan lebar kontainer video 100% */
+  }
+  
+  iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 4px; /* Sudut melengkung pada video */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

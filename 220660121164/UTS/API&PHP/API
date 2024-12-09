@@ -1,0 +1,35 @@
+document.getElementById("todo-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const task = document.getElementById("todo-input").value;
+
+    // Kirim data ke API menggunakan fetch
+    fetch('api.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ task })
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Tambahkan tugas ke tampilan daftar
+        const todoList = document.getElementById("todo-list");
+        const li = document.createElement("li");
+        li.textContent = data.task;
+        todoList.appendChild(li);
+    });
+
+    // Bersihkan input
+    document.getElementById("todo-input").value = '';
+});
+
+// Mendapatkan daftar tugas dari API
+fetch('api.php')
+    .then(response => response.json())
+    .then(todos => {
+        const todoList = document.getElementById("todo-list");
+        todos.forEach(todo => {
+            const li = document.createElement("li");
+            li.textContent = todo.task;
+            todoList.appendChild(li);
+        });
+    });

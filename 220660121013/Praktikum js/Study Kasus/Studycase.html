@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- Judul Halaman -->
+        <h1 class="text-center">Portofolio Pribadi Orang Lain</h1>
+
+        <!-- Gambar Profil -->
+        <div class="text-center">
+            <img src="aset/img/Picsart_23-11-10_08-08-18-839.png" width="400" alt="Gambar Profil">
+        </div>
+
+        <!-- Tentang Saya -->
+        <h2 class="text-center">Tentang Saya</h2>
+        <p class="text-center">Selamat datang di portofolio saya! Saya adalah seorang pengembala domba yang penuh semangat.</p>
+        <blockquote class="text-center">"ARIF SANG PENGGEMBALA."</blockquote>
+
+        <!-- Pengalaman Kerja -->
+        <h2 class="text-center">Pengalaman Kerja</h2>
+        <table>
+            <tr>
+                <th>Posisi</th>
+                <th>Perusahaan</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>admin PT Cinawing putra sejahtera</td>
+                <td>darmaraja sumedang</td>
+                <td>2022-sekarang</td>
+            </tr>
+            <tr>
+                <td>founder</td>
+                <td>Pdp campaka</td>
+                <td>2019-sekarang</td>
+            </tr>
+        </table>
+
+        <!-- Hobi -->
+        <h2>Hobi Saya</h2>
+        <ul>
+            <li>badminton</li>
+            <li>berternak</li>
+            <li>Musik</li>
+        </ul>
+        <ol>
+            <li>Belajar</li>
+            <li>berbisnis</li>
+        </ol>
+
+        <!-- Audio -->
+        <h2 class="text-center">Suara favorit</h2>
+        <audio controls>
+            <source src="src/music/AAUUGGHHHHHHHHH Extremely loud meme sound effect.wav" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <!-- Video Karya -->
+        <h2 class="text-center">Video Karya Seni</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3DndcwXfut4?si=z_R-vq3s6kjp13r1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Link ke Media Sosial -->
+        <p>
+            <a href="https://www.linkedin.com/in/arif-firmansyah-b176732a4/" target="_blank">LinkedIn</a>
+        </p>
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2024 Portofolio Pribadi. Semua hak dilindungi oleh diri saya sendiri.
+        </footer>
+    </div>
+
+    <script>
+        // Fungsi untuk menghasilkan warna acak
+        function generateRandomColor() {
+            var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            return randomColor;
+        }
+
+        // Mengubah warna latar belakang halaman secara acak
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = generateRandomColor();
+        }
+
+        // Menampilkan pesan sambutan
+        function showWelcomeMessage() {
+            alert("Selamat datang di portofolio saya! Saya adalah seorang pengembang web yang penuh semangat.");
+        }
+
+        // Memanggil fungsi saat halaman dimuat
+        window.onload = function() {
+            changeBackgroundColor();
+            showWelcomeMessage();
+        };
+    </script>
+</body>
+
+</html>

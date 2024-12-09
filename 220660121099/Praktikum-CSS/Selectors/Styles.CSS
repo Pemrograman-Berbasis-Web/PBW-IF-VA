@@ -1,0 +1,38 @@
+/* Selector Element */
+h1 {
+    color: blue;
+}
+
+/* Selector ID */
+#header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+/* Selector Class */
+.teks {
+    font-size: 16px;
+    color: green;
+}
+
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector Group */
+h1, h2 {
+    color: red;
+}
+
+/* Selector Descendant */
+div p {
+    font-weight: bold;
+}
+
+/* Selector Child */
+div > ul {
+    list-style: none;
+}

@@ -1,0 +1,6 @@
+/* Mengatur border pada elemen div dengan id "contoh" */
+#contoh {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }

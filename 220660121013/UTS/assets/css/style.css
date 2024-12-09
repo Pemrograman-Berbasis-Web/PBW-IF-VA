@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.edit-form {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+button.cancel-edit {
+    background-color: #dc3545;
+    color: #fff;
+}

@@ -1,0 +1,111 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbeaf3; /* Warna pink muda untuk background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #e91e63; /* Warna pink utama untuk judul */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f8bbd0; /* Warna pink muda untuk garis bawah */
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Hanya teks tugas yang bergaris saat selesai */
+.completed .task-text {
+    text-decoration: line-through;
+    color: #c2185b; /* Warna pink lebih gelap untuk teks tugas selesai */
+}
+
+.task-text {
+    flex: 1;
+}
+
+/* Style tombol */
+button, .complete-btn, .delete-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(45deg, #ec407a, #e91e63);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Style khusus untuk tombol selesai */
+.complete-btn {
+    background: linear-gradient(45deg, #ff80ab, #ec407a);
+}
+
+/* Style khusus untuk tombol hapus */
+.delete-btn {
+    background: linear-gradient(45deg, #d81b60, #ad1457);
+}
+
+/* Hover efek untuk tombol */
+button:hover, .complete-btn:hover, .delete-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #f8bbd0; /* Pink muda untuk border input */
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+form button {
+    background: linear-gradient(45deg, #e91e63, #f06292);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}

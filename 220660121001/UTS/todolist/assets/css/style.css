@@ -1,0 +1,150 @@
+/* Reset beberapa gaya dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: cyan; /* Mengganti latar belakang menjadi cyan */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Judul */
+h1 {
+  font-size: 2rem;
+  color: #6495ED;  /* Cornflower Blue */
+  margin-bottom: 20px;
+}
+
+/* Wrapper untuk input dan tombol */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #6495ED;  /* Cornflower Blue border */
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-container input[type="text"]:focus {
+  border-color: #6495ED;  /* Cornflower Blue border */
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #6495ED;  /* Cornflower Blue */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.input-container button:hover {
+  background-color: #4169E1;  /* Royal Blue */
+}
+
+/* Tabel */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan shadow pada tabel */
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #6495ED;  /* Cornflower Blue border */
+}
+
+th {
+  background-color: #6495ED;  /* Cornflower Blue */
+  color: #fff;  /* White text */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: transparent;  /* Very light blue for even rows */
+}
+
+tr:hover {
+  background-color: #4169E1;  /* Royal Blue hover effect */
+  color: #fff;
+}
+
+/* Kolom Status */
+button.status-pending {
+  background-color: #87CEFA;  /* Light Sky Blue for pending status */
+}
+
+button.status-done {
+  background-color: #32CD32;  /* Lime Green for done status */
+}
+
+button.status-pending:hover, button.status-done:hover {
+  background-color: #4169E1;  /* Royal Blue on hover */
+}
+
+button.status-done {
+  cursor: not-allowed;
+}
+
+/* Tombol aksi dalam tabel */
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #4169E1;  /* Royal Blue on hover */
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.error {
+  border-color: red;
+}
+
+/* Tombol Hapus dan Edit */
+button.delete {
+  background-color: #E74C3C;  /* Red for delete */
+}
+
+button.edit {
+  background-color: #6495ED;  /* Cornflower Blue for edit */
+}
+
+button.delete:hover {
+  background-color: #C0392B;  /* Darker red on hover */
+}
+
+button.edit:hover {
+  background-color: #4169E1;  /* Royal Blue for edit hover */
+}

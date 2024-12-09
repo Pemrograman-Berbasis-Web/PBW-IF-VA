@@ -1,0 +1,96 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 82%);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #0e7700;
+}
+
+/* Todo List */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#todo-list li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tugas selesai */
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+    background-color: #f0f0f0;
+}
+
+/* Checkbox */
+#todo-list input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Links */
+#todo-list a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #007BFF;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#todo-list a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Add Form */
+#add-form {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#task {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#add-form button {
+    padding: 10px 15px;
+    background: #0e7700;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+#add-form button:hover {
+    background: #4cff55;
+}

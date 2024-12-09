@@ -1,0 +1,133 @@
+/* assets/css/style.css */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../css/Itim-Regular.ttf);
+  }
+* {
+    font-family: myFirstFont;
+} 
+body {
+    background: linear-gradient(45deg, #42008d, #00065a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px; 
+    width: 90%; 
+    text-align: center;
+}
+
+h1 {
+    color: #ff416c;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr.completed td {
+    text-decoration: line-through;
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.actions {
+    text-align: center;
+}
+
+.complete {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.complete:hover {
+    color: #218838;
+}
+
+.delete-icon {
+    width: 20px;
+    height: 20px;
+}
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+th.created-at, th.updated-at,
+td.created-at, td.updated-at {
+    width: 150px; 
+    font-size: 12px; 
+    color: #555; 
+    font-style: italic;
+}
+
+td .created-at {
+    color: #1d1d1d; 
+}
+
+td .updated-at {
+    color: #1d1d1d; 
+}

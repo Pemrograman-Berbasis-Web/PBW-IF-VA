@@ -1,0 +1,167 @@
+/* style.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdd1d; /* Background warna hitam untuk body */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    width: 400px;
+    background-color: #42e192; /* Background warna hijau untuk container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Warna teks putih untuk judul */
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input and Button Styling */
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Task list container styling */
+.task-container {
+    background-color: #ffffff; /* Background putih untuk kontainer daftar */
+    border-radius: 10px;
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Completed and Delete Buttons */
+li .complete,
+li .delete {
+    background-color: transparent;
+    color: #888;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+li .complete:hover {
+    color: #4caf50;
+}
+
+li .delete:hover {
+    color: #e74c3c;
+}
+/* Gaya khusus untuk section todo */
+.todo-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .todo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-item   
+   .task {
+    flex: 1;
+  }
+  
+  .todo-item .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  
+  
+  /* Gaya tambahan untuk memberikan efek draggable */
+  .todo-item {
+    cursor: move;
+  }
+  
+  .todo-item:active {
+    opacity: 0.5;
+  }

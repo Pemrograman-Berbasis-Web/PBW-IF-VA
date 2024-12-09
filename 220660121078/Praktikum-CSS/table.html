@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table CSS</title>
+  <style>
+    table {
+      /* Menggabungkan batas sel */
+      border-collapse: collapse;
+      /* Jarak antar batas sel */
+      border-spacing: 5px;
+      /* Lebar tabel */
+      width: 60%;
+      /* Pusatkan tabel */
+      margin: 20px auto;
+      /* Warna latar belakang tabel */
+      background-color: #f9f9f9;
+    }
+
+    th,
+    td {
+      /* Batas hitam untuk sel */
+      border: 1px solid #000;
+      /* Ruang dalam sel */
+      padding: 10px;
+      /* Rata tengah teks */
+      text-align: center;
+      /* Ukuran font */
+      font-size: 16px;
+    }
+
+    th {
+      /* Warna latar belakang untuk header */
+      background-color: #4CAF50;
+      /* Warna teks untuk header */
+      color: white;
+    }
+
+    td {
+      /* Warna latar belakang untuk sel biasa */
+      background-color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Contoh Tabel dengan CSS</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Kota</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Uzumaki Naruto</td>
+        <td>25</td>
+        <td>Konoha</td>
+      </tr>
+      <tr>
+        <td>Shiba Tatsuya</td>
+        <td>21</td>
+        <td>Yokohama</td>
+      </tr>
+      <tr>
+        <td>Asta</td>
+        <td>17</td>
+        <td>Clover Kingdom</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

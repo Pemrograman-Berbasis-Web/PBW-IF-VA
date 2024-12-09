@@ -1,0 +1,22 @@
+<?php
+header("Content-Type: application/json");
+
+// Dummy data untuk simulasi
+$todos = [
+    ["id" => 1, "task" => "Belajar PHP", "completed" => false],
+    ["id" => 2, "task" => "Membuat API", "completed" => true],
+];
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    echo json_encode($todos);
+} elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $input = json_decode(file_get_contents('php://input'), true);
+    $newTask = [
+        "id" => count($todos) + 1,
+        "task" => $input['task'],
+        "completed" => false
+    ];
+    $todos[] = $newTask;
+    echo json_encode($newTask);
+}
+?>

@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Moonstreet Sans';
+    src: url('path/to/MoonstreetSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Moonstreet Sans', sans-serif;
+}
+/* Header styles */
+header {
+    margin-bottom: 30px; /* Space below the header */
+}
+
+h1, p {
+    margin: 10px 0; /* Space between h1 and p, can adjust the values */
+}
+/* CSS for audio player animation */
+.audio-section audio {
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+}
+
+.audio-section audio:active {
+    transform: scale(1.05); /* Scale up when clicked */
+}
+/* CSS for video iframe animation */
+.video-section iframe {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.video-section iframe.playing {
+    transform: scale(1.05); /* Scale up when clicked */
+}
+
+/* Profile image styles */
+footer {
+    margin-top: 10px; /* Add space above the footer */
+    padding: 10px 0; /* Add padding for aesthetics */
+    color: var(--text-color); /* Use your theme text color */
+    font-size: 0.9em; /* Slightly smaller text size */
+    text-align: center; /* Center text */
+}
+
+/* General styles for headings and other elements */
+h1, h2, p, .theme-toggle-btn, .social-badge {
+    font-family: 'Moonstreet Sans', sans-serif;
+}
+
+/* Light and Dark Theme Variables */
+:root {
+    /* Light Theme Colors */
+    --background-color: #f3f6f9;
+    --text-color: #333;
+    --container-bg: #fff;
+    --heading-color: #2c3e50;
+    --border-color: #2980b9;
+    --blockquote-bg: #f4f8fb;
+    --link-color: #2980b9;
+    --link-hover-color: #1a5276;
+}
+
+/* Dark Theme Variables */
+body.dark-theme {
+    --background-color: #333;
+    --text-color: #f4f4f9;
+    --container-bg: #444;
+    --heading-color: #f4f4f9;
+    --border-color: #76c7c0;
+    --blockquote-bg: #555;
+    --link-color: #76c7c0;
+    --link-hover-color: #bbded6;
+}
+
+/* Theme toggle button styles */
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--container-bg);
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.5em; /* Slightly larger font for emphasis */
+}
+
+/* Hover effect for the button */
+.theme-toggle-btn:hover {
+    background-color: var(--border-color);
+    color: var(--container-bg);
+}
+
+/* Body styles using theme variables */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for layout */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--container-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative; /* Added to position pseudo-elements */
+}
+
+/* Hover effects for the container */
+.container:hover {
+    transform: translateY(-5px) scale(1.02); /* Slight scale effect */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    background-color: transparent; /* Make background transparent on hover */
+}
+
+/* Text center class */
+.text-center {
+    text-align: center;
+}
+
+/* Main title */
+h1 {
+    color: var(--heading-color);
+    font-size: 2.4em; /* Increased font size for a more impactful title */
+    font-weight: 700; /* Bold weight for emphasis */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Profile image styles */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid var(--border-color);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Section headings */
+h2 {
+    color: var(--border-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Increased letter spacing for elegance */
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic;
+    margin: 10px 0 20px;
+    padding: 15px;
+    background-color: var(--blockquote-bg);
+    border-left: 5px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: var(--border-color);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--blockquote-bg);
+}
+
+/* List styles */
+ul, ol {
+    margin: 10px 0 20px 20px;
+    color: var(--text-color);
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Audio player styles */
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Video iframe styles */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid var(--border-color);
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Link styles */
+a {
+    color: var(--link-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+/* Animations */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.theme-toggle-btn {
+    /* Existing styles */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    animation: none; /* Default to no animation */
+}
+
+.theme-toggle-btn:active {
+    animation: rotate 0.5s; /* Rotate animation on click */
+}
+
+.social-badge {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-badge:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+    filter: brightness(0.85); /* Darken a bit on click */
+}
+/* Specific spacing for header elements */
+h1 {
+    margin-bottom: 10px; /* Adjust this value to reduce space */
+}
+
+p {
+    margin-top: 0; /* Remove top margin to reduce space */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 2em; /* Adjusted size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjusted size for smaller screens */
+    }
+}

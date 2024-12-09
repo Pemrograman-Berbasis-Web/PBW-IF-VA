@@ -1,0 +1,37 @@
+/* assets/css/style.css */
+body {
+  background-image: url(../img/bg/cork-board.png);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Title Styling */
+h1 {
+  color: #333;
+  font-weight: 700;
+}
+
+/* Form Styling */
+.form-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+/* Badge Customization */
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+}

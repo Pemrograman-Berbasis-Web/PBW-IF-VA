@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../bg.jpg);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;             
+    max-width: 1200px;        
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(97, 97, 97, 0.1);
+}
+ /* Adjusting column widths */
+th.status-column, td.status-column {
+    width: 120px;  /* Adjust the width of the status column */
+}
+
+th.deadline-column, td.deadline-column {
+    width: 120px;  /* Adjust the width of the deadline column */
+}
+
+th.actions-column, td.actions-column {
+    width: 300px;  /* Adjust the width of the actions column */
+}
+
+table td {
+    text-align: center;
+}
+
+table th {
+    text-align: center;
+}
+
+/* Menambahkan jarak antar tombol */
+table td .btn {
+    margin-right: 10px;  /* Menambahkan jarak kanan antar tombol */
+}
+
+/* Jika ingin memberikan margin bawah, misalnya agar tombol tidak terlalu rapat vertikal */
+table td .btn:last-child {
+    margin-right: 0; /* Menghilangkan margin kanan pada tombol terakhir */
+}
+
+
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* atau ganti dengan font lain */
+    font-weight: 700; /* lebih tebal */
+    font-size: 2em; /* sedikit lebih besar */
+    color: #0056b3; /* warna biru yang sudah ada */
+}
+
+
+form.new-task-form input[type="text"],
+form#updateForm input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.completed .todo-text {
+    text-decoration: line-through;
+    color: #888;
+}
