@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  header {
+    background: linear-gradient(45deg, #4CAF50, #2e8b57);
+    color: white;
+    padding: 50px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* About Section */
+  .profile {
+    margin-top: 40px;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .profile h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2e8b57;
+  }
+  
+  /* Favorites Section */
+  .favorites {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .favorites h2 {
+    font-size: 2em;
+    color: #4CAF50;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .favorites ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Projects Section */
+  .projects {
+    margin-top: 40px;
+  }
+  
+  .projects h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    color: #2e8b57;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

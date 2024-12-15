@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  header {
+    background: linear-gradient(45deg, #4CAF50, #2e8b57);
+    color: white;
+    padding: 50px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .change-bg-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-bg-btn:hover {
+    background-color: #555;
+  }
+  
+  /* Remaining Styles (Profile, Favorites, Projects, Footer) */
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+  }
+  
