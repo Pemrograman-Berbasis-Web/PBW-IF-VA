@@ -1,0 +1,146 @@
+/* Struktur dan tata letak utama */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f0ff, #ffffff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #0056b3;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #a6cfff;
+    border-radius: 4px;
+}
+
+button i, a i {
+    margin-right: 5px;
+}
+
+/* Tombol bergaya biru */
+.button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.add-button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.add-button:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+.complete, .delete, .edit {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+}
+
+.complete:hover, .delete:hover, .edit:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+/* Form update */
+#updateForm {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+#updateForm input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    border: 1px solid #a6cfff;
+    border-radius: 4px;
+}
+
+/* Daftar tugas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #cfe2ff;
+    border-radius: 4px;
+}
+
+/* Gaya teks tugas dan tombol */
+.todo-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+li.completed .todo-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+a {
+    color: #0056b3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004494;
+}
+
+/* Penyesuaian untuk ikon pada tombol */
+button i, a i {
+    margin-right: 5px;
+}
+/* Memberikan ruang antar tombol */
+li a.button {
+    margin-left: 8px; /* Menambahkan ruang antar tombol */
+} 

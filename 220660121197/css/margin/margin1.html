@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margin 1</title>
+  <style>
+    p.ex1 {
+      margin: 35px;
+    }
+
+    /* Set margin yang berbeda untuk setiap sisi */
+    div {
+      height: 200px;
+      width: 200px;
+      background-color: lightskyblue;
+      margin-left: 20px;
+      margin-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 40px
+    }
+
+    div p {
+      text-align: center;
+      line-height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>The margin Property</h1>
+  <div>
+    <p>Kotak</p>
+  </div>
+  <p>A paragraph with no specified margins.</p>
+  <p class="ex1">This paragraph has a margin of 35 pixels on all four sides.</p>
+  <p>A paragraph with no specified margins.</p>
+</body>
+
+</html>
