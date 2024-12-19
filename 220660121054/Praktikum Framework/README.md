@@ -2,9 +2,7 @@
 
 ## Demo & Hasil
 
-![Klik di sini untuk melihat video](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExamQ4N3Z3bnFqbHg3dGw3Z3drYXp5aHltdmNsb2V2azd2ZzdkcmJrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/enY5IGRdCutKuaHfkP/giphy.gif)
-
-[![Demo Video](https://img.youtube.com/vi/QmC3ITE885Y/0.jpg)](https://youtu.be/QmC3ITE885Y)
+[![Demo Video](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWt4YTA0OGk3dTFsODJ2dXE2d3Nxd24wYWN4bDV4dnh5bjJ4ZGQwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lgza5OS8kiB5pjdsfa/giphy.gif)](https://youtu.be/QmC3ITE885Y)
 
 
 ![Contoh Gambar](https://github.com/VirzanPasaNugraha/PBW-IF-VA/raw/220660121054/220660121054/Praktikum%20Framework/Assets/Database.png)
