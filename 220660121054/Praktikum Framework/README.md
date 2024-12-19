@@ -1,10 +1,8 @@
 # Dokumentasi Aplikasi
 
-## Demo Video
+## Demo
 
-Berikut adalah demo aplikasi yang menunjukkan cara kerja fitur video loop:
-
-[![Demo Video](https://youtu.be/QmC3ITE885Y)](https://youtu.be/QmC3ITE885Y)
+![app](https://youtu.be/QmC3ITE885Y)
 
 ## Penjelasan Kode
 
