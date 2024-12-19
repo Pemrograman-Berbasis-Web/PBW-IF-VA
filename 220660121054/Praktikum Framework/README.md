@@ -2,6 +2,8 @@
 
 ## Demo & Hasil
 
+![Klik di sini untuk melihat video](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExamQ4N3Z3bnFqbHg3dGw3Z3drYXp5aHltdmNsb2V2azd2ZzdkcmJrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/enY5IGRdCutKuaHfkP/giphy.gif)
+
 [![Demo Video](https://img.youtube.com/vi/QmC3ITE885Y/0.jpg)](https://youtu.be/QmC3ITE885Y)
 
 
