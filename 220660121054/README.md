@@ -38,12 +38,13 @@
 | **PHP**                     | Modul PHP - berisi file-file tugas                  |
 | **UTS**                     | Berisi tampilan hasil pengerjaan UTS                |
 | **Praktikum Rest Api**      | Berisi tampilan hasil pengerjaan                    |
+| **Praktikum Framework**     | Berisi tampilan hasil pengerjaan                    |
                                                                                    
 
 **Catatan**: Tabel ini membantu mempermudah navigasi ke bagian-bagian penting dari proyek.
 
  
- 🌱 Saat ini saya sedang mempelajari **JS**
+ 🌱 Saat ini saya sedang mempelajari **UAS**
 
 💬 Tanyakan kepada saya tentang **HTML, CSS, Firebase... atau apa pun [di sini](https://github.com/adriantea1/PBW-IF-VA/issues)**.
 
