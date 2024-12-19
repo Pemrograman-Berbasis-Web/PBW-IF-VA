@@ -1,8 +1,16 @@
 # Dokumentasi Aplikasi
 
-## Demo
+## Demo & Hasil
 
-![app](https://youtu.be/QmC3ITE885Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QmC3ITE885Y?autoplay=1&loop=1&playlist=QmC3ITE885Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+![Contoh Gambar](https://github.com/VirzanPasaNugraha/PBW-IF-VA/raw/220660121054/220660121054/Praktikum%20Framework/Assets/Database.png)
+
+
+![Contoh Gambar](https://github.com/VirzanPasaNugraha/PBW-IF-VA/raw/220660121054/220660121054/Praktikum%20Framework/Assets/Testing.png)
+
+
 
 ## Penjelasan Kode
 
