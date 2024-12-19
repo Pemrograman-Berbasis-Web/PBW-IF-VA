@@ -2,7 +2,7 @@
 
 ## Demo & Hasil
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QmC3ITE885Y?autoplay=1&loop=1&playlist=QmC3ITE885Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/QmC3ITE885Y/0.jpg)](https://youtu.be/QmC3ITE885Y)
 
 
 ![Contoh Gambar](https://github.com/VirzanPasaNugraha/PBW-IF-VA/raw/220660121054/220660121054/Praktikum%20Framework/Assets/Database.png)
