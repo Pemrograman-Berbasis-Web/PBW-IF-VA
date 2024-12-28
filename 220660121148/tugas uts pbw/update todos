@@ -1,0 +1,21 @@
+<?php
+require_once "../db.php";
+
+data = json_decode(file_get_contents("php://input"));
+
+if (!empty(data->id)) {
+    query = "UPDATE todos SET completed = :completed WHERE id = :id";
+    stmt = $conn->prepare(query);
+
+    stmt->bindParam(":id", data->id);
+    stmt->bindParam(":completed", data->completed);
+
+    if (stmt->execute()) {
+        echo json_encode(["message" => "Todo updated successfully"]);
+    } else {
+        echo json_encode(["message" => "Failed to update todo"]);
+    }
+} else {
+    echo json_encode(["message" => "ID is required"]);
+}
+?>
