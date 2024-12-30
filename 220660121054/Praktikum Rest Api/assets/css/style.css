@@ -1,0 +1,297 @@
+/* Global Background Styling */
+body {
+    background-color: #f5f0e1; /* Turquoise background */
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Menghindari elemen overflow */
+}
+
+/* Header Styling */
+h1 {
+    font-size: 24px;
+    color: #f5f0e1;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    background: #1e3d59; 
+    font-family: 'Poppins', Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}
+
+/* Form Container Styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 20px auto; /* Spasi lebih besar untuk menghindari header */
+    padding: 20px;
+    background-color: #f5f0e1;
+}
+
+/* Styling untuk form */
+#add-form {
+    display: flex; /* Membuat layout horizontal */
+    flex-wrap: nowrap; /* Elemen tidak akan berpindah ke bawah */
+    align-items: center;
+    gap: 10px; /* Jarak antar elemen */
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Styling untuk input field */
+#add-form input[type="text"] {
+    flex: 1; /* Memastikan kedua input field memiliki ukuran proporsional */
+    min-width: 310px; /* Lebar minimum untuk input */
+    max-width: 200px; /* Lebar maksimum untuk input */
+    height: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Fokus dan hover efek untuk input */
+#add-form input[type="text"]:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.5);
+}
+
+/* Styling untuk tombol */
+#add-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6366f1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover efek untuk tombol */
+#add-form button[type="submit"]:hover {
+    background-color: #4f46e5;
+}
+
+
+#add-form input[type="text"] {
+    flex: 1 1 calc(70% - 20px); /* Responsif agar menyesuaikan */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #4e73df;
+    font-size: 14px;
+}
+
+#add-form button {
+    flex: 1 1 calc(30% - 20px); /* Responsif */
+    background: #4e73df;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#add-form button:hover {
+    background: #218838;
+}
+
+/* Table Container Styling */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 10px solid #f5f0e1;
+}
+
+thead {
+    background: #4e73df;
+    color: #f5f0e1;
+}
+
+thead th {
+    text-align: center;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tbody tr:hover {
+    background: #e9ecef;
+    cursor: pointer;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Action Column */
+td.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Action Buttons */
+.action-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Mark as Completed Button */
+.complete-btn {
+    background-color: #4e73df;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #2e59d9;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #e74a3b;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #6e7dff, #4a5aff); /* Gradasi warna */
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk kedalaman */
+    margin-top: 30px; /* Memberikan sedikit jarak antara konten dan footer */
+}
+
+footer p {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #add-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #add-form input[type="text"], 
+    #add-form button {
+        flex: 1 1 100%;
+    }
+
+    .table-container {
+        padding: 10px;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    td.actions {
+        flex-direction: column;
+    }
+}
+.active-todo-header {
+    color: #4b5563; /* Warna teks */
+    background-color: #f3f4f6; /* Warna latar belakang */
+    border-left: 6px solid #6366f1; /* Garis vertikal di sisi kiri */
+    padding: 10px 20px; /* Jarak di dalam elemen */
+    border-radius: 6px; /* Membuat sudut melengkung */
+    font-size: 22px; /* Ukuran font */
+    font-family: 'Roboto', Arial, sans-serif; /* Jenis font */
+    text-align: left; /* Menyelaraskan teks ke tengah */
+    font-weight: 500;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}
+
+/* Efek hover */
+.active-todo-header:hover {
+    background-color: #e0e7ff; /* Warna saat hover */
+    border-left-color: #4f46e5; /* Warna garis kiri berubah */
+    transform: translateY(-3px); /* Efek terangkat */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transisi lembut */
+}
+/* Styling untuk Todo History */
+h2 {
+    color: #4b5563; /* Warna teks abu-abu gelap */
+    background-color: #f3f4f6; /* Warna latar belakang abu-abu terang */
+    border-left: 6px solid #6366f1; /* Garis vertikal di sisi kiri */
+    padding: 10px 20px; /* Jarak di dalam elemen */
+    font-size: 22px; /* Ukuran font */
+    font-family: 'Roboto', Arial, sans-serif; /* Jenis font */
+    font-weight: 500; /* Ketebalan font */
+    margin: 20px 0; /* Jarak atas dan bawah */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+    border-radius: 6px; /* Membuat sudut melengkung */
+    text-align: left; /* Teks rata kiri */
+}
+
+/* Efek hover untuk header */
+h2:hover {
+    background-color: #e0e7ff; /* Warna latar saat hover */
+    border-left-color: #4f46e5; /* Warna garis kiri berubah */
+    transform: translateY(-3px); /* Efek terangkat */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transisi lembut */
+}

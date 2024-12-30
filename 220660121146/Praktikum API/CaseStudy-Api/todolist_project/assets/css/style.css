@@ -1,0 +1,157 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbeaf3; /* Pink background color */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e91e63; /* Pink header */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.date-column p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Daftar Todo */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f8bbd0; /* Light pink border */
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Task text with line-through when completed */
+.completed .task-text {
+    text-decoration: line-through;
+    color: #c2185b;
+}
+
+.task-text {
+    flex: 1;
+}
+
+/* Tombol umum dengan desain pink */
+button, .complete-btn, .delete-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Membuat tombol lebih bulat */
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(45deg, #ec407a, #e91e63); /* Warna pink dari muda ke gelap */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan lembut */
+    transition: all 0.3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Efek hover untuk tombol */
+button:hover, .complete-btn:hover, .delete-btn:hover {
+    transform: translateY(-2px); /* Tombol bergerak ke atas saat hover */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar */
+}
+
+/* Tombol Mark as Complete */
+.complete-btn {
+    background: linear-gradient(45deg, #ff80ab, #ec407a); /* Gradient pink lebih terang */
+}
+
+.complete-btn:hover {
+    background: linear-gradient(45deg, #ff66b2, #e91e63); /* Hover dengan warna lebih cerah */
+}
+
+/* Tombol Delete */
+.delete-btn {
+    background: linear-gradient(45deg, #f44336, #d32f2f); /* Gradient merah untuk delete */
+}
+
+.delete-btn:hover {
+    background: linear-gradient(45deg, #ff5722, #d32f2f); /* Hover dengan warna merah lebih terang */
+}
+
+/* Style untuk icon di dalam tombol */
+.complete-btn i, .delete-btn i {
+    font-size: 18px; /* Ukuran ikon sedikit lebih besar */
+}
+
+/* Tombol di form input */
+form button {
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #e91e63, #f06292); /* Gradient pink untuk tombol kirim */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+}
+
+/* Hover efek untuk tombol kirim */
+form button:hover {
+    background: linear-gradient(45deg, #ec407a, #f06292); /* Perubahan warna saat hover */
+    transform: scale(1.05); /* Sedikit membesar saat hover */
+}
+
+/* Input dan Form */
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #f8bbd0; /* Light pink border */
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Tombol di form */
+form button {
+    background: linear-gradient(45deg, #e91e63, #f06292);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}

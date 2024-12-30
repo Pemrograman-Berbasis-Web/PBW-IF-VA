@@ -3,6 +3,12 @@
 ### Nama: Siti Rachmania Putri  
 ### NIM: 220660121066
 
+### Halaman Utama
+![Halaman Utama](https://imgur.com/WMDKND3.png)
+
+### Konfirmasi Penghapusan
+![Postman](https://imgur.com/tTzBK6a.png)
+
 ## Deskripsi
 Aplikasi **Todo List** ini memungkinkan pengguna untuk menambahkan, menandai sebagai selesai, dan menghapus tugas. Aplikasi ini menggunakan PHP untuk backend dan menyimpan data tugas sementara dalam array. Desain antarmuka yang minimalis dan interaktif membuat pengalaman pengguna lebih menyenangkan.
 

@@ -1,11 +1,15 @@
-<p style="text-align: right;">
+<div align="right">
     <a href="https://visitor-badge.laobi.icu/badge?page_id=VirzanPasaNugraha.PBW-IF-VA">
         <img src="https://visitor-badge.laobi.icu/badge?page_id=VirzanPasaNugraha.PBW-IF-VA&title=Dikunjungi" alt="Visitor Badge" />
     </a>
     <a href="https://github.com/VirzanPasaNugraha.PBW-IF-VA/network/members">
         <img src="https://img.shields.io/github/forks/VirzanPasaNugraha/PBW-IF-VA?style=social" alt="Forks" />
     </a>
-</p>
+</div>
+
+
+
+
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+I'm+Virzan+Pasa+Nugraha!" alt="Typing SVG" />
@@ -33,6 +37,7 @@
 | **Portofolio**              | Berisi Code HTML, CSS, JS                           |
 | **PHP**                     | Modul PHP - berisi file-file tugas                  |
 | **UTS**                     | Berisi tampilan hasil pengerjaan UTS                |
+| **Praktikum Rest Api**      | Berisi tampilan hasil pengerjaan                    |
                                                                                    
 
 **Catatan**: Tabel ini membantu mempermudah navigasi ke bagian-bagian penting dari proyek.
@@ -74,32 +79,29 @@
 
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
   
-  <table>
+<table>
     <tr>
-        <!-- Github状态 -->
+        <!-- GitHub Stats -->
         <td>
- <!-- GitHub Stats for Light Mode -->
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-    <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=default#gh-light-mode-only" alt="adriantea1's GitHub stats" />
-</a>
-<!-- GitHub Stats for Dark Mode -->
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-    <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=dark&bg_color=000000#gh-dark-mode-only" alt="adriantea1's GitHub stats" />
-</a>
-
-<!-- Language Stats for Light Mode -->
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirzanPasaNugraha&layout=compact&langs_count=12&hide_border=true&theme=default#gh-light-mode-only" alt="adriantea1's Language stats" />
-</a>
-<!-- Language Stats for Dark Mode -->
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirzanPasaNugraha&layout=compact&langs_count=12&hide_border=true&theme=dark&bg_color=000000#gh-dark-mode-only" alt="adriantea1's Language stats" />
-</a>
-
-</a>
-</td>
-</tr>
+            <!-- GitHub Stats for Light Mode -->
+            <a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
+                <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=default#gh-light-mode-only" alt="VirzanPasaNugraha's GitHub stats" />
+            </a>
+            <!-- GitHub Stats for Dark Mode -->
+            <a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
+                <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=dark&bg_color=000000#gh-dark-mode-only" alt="VirzanPasaNugraha's GitHub stats" />
+            </a>
+        </td>
+        <!-- GIF Preview -->
+        <td align="center">
+            <img src="https://media.giphy.com/media/IeXoLjRPLh0G2FlQ1Z/giphy.gif" 
+                 alt="GIF Preview 2" 
+                 width="485" />
+        </td>
+    </tr>
 </table>
+
+
 </div>
 
 <div align="center">

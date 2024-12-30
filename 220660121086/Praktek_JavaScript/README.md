@@ -1,5 +1,8 @@
 # Praktikum-03
 
+**JavaScript**
+
 ---
 
-**JavaScript**
+Screenshot:  
+![Hasil Praktikum JS](https://i.imgur.com/fCflAOq.png)  

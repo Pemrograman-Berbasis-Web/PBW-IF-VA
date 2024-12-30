@@ -1,5 +1,8 @@
 # Praktikum-04
 
+**PHP**
+
 ---
 
-**PHP**
+Screenshot:  
+![Hasil Praktikum PHP](https://i.imgur.com/PQ8awvw.png)
