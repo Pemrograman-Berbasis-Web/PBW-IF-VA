@@ -1,9 +1,12 @@
 UAS Kelompok OnlySmart
-Anggota
-Muhammad Hilman Firmansyah | 220660121007
-Samsul Prastio | 220660121140
-Dede Ahmad Rosid | 220660121028
+
 =============================
+
+# Anggota
+
+- Muhammad Hilman Firmansyah | 220660121007
+- Samsul Prastio | 220660121140
+- Dede Ahmad Rosid | 220660121028
 
 # Teknologi yang di pakai
 
