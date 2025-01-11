@@ -11,6 +11,9 @@ Repositori ini dibuat untuk menyimpan semua tugas **Praktikum Pemrograman Web**.
 - **`Praktikum01`**: 📄 Modul HTML.
 - **`Praktikum02`**: 🎨 Modul CSS.
 - **`Praktikum03`**: 📝 Modul JavaScript.
+- **`PHP`**: 📝 Modul PHP.
+- **`UTS`**: 📝 UTS.
+
 
 
 ## 🎯 Tujuan Proyek

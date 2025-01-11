@@ -1,0 +1,125 @@
+/* css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../Universitas\ Sebelas\ April\ Sumedang\ \(1\).jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+    background: rgba(224, 247, 250, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00796b;
+}
+
+.success {
+    color: #388e3c;
+}
+
+.error {
+    color: #d32f2f;
+}
+
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    justify-content: center; /* Memusatkan konten di dalam form */
+}
+
+.form-input label {
+    margin: 0;
+}
+
+.form-input input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #00796b;
+    color: white;
+}
+
+td {
+    background-color: #e0f2f1;
+}
+
+a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+a.edit {
+    color: #388e3c;
+}
+
+a.delete {
+    color: #d32f2f;
+}
+
+a:hover {
+    text-decoration: underline;
+}

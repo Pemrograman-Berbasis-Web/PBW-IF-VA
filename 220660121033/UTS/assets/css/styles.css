@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+
+.To-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.To-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.To-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.row form {
+    display: flex;
+    flex: 1; /* Mengisi seluruh ruang pada row */
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #e04a3a;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 50px 12px 50px; /* Tambahkan padding kanan agar tidak menindih delete-icon */
+    user-select: none;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Gaya untuk ikon status (checked dan unchecked) */
+ul li .status-icon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+ul li .status-icon img {
+    width: 100%;
+    height: auto;
+}
+
+/* Gaya untuk item yang selesai */
+ul li.completed {
+    color: #555;
+    text-decoration: line-through;
+}
+
+/* Gaya untuk ikon "X" sebagai tombol hapus */
+ul li .delete-icon {
+    position: absolute;
+    right: 16px; /* Jarak dari kanan */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    color: #ff5945;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+ul li .delete-icon:hover {
+    background-color: #ffe0dc;
+    color: #d13a31;
+}

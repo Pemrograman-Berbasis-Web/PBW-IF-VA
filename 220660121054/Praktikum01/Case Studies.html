@@ -4,94 +4,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Pribadi</title>
-    <link rel="stylesheet" href="Case Study.css"> <!-- Link ke file CSS -->
+    <title>Portofolio Pribadi - Virzan Pasa Nugraha</title>
+    <link rel="stylesheet" href="Case Study.css"> <!-- Updated CSS file link -->
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Video Background Styles */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Send the video to the back */
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Cover the entire area */
+            pointer-events: none; /* Prevent interaction with the video */
+            opacity: 0.7; /* Adjust opacity if needed */
+        }
+
+        /* Light and Dark Theme Variables */
+        :root {
+            /* Light Theme Colors */
+            --background-color: #f3f6f9;
+            --text-color: #333;
+            --container-bg: #fff;
+            --heading-color: #2c3e50;
+            --border-color: #2980b9;
+            --blockquote-bg: #f4f8fb;
+            --link-color: #2980b9;
+            --link-hover-color: #1a5276;
+        }
+
+        /* Dark Theme Variables */
+        body.dark-theme {
+            --background-color: #333;
+            --text-color: #f4f4f9;
+            --container-bg: #444;
+            --heading-color: #f4f4f9;
+            --border-color: #76c7c0;
+            --blockquote-bg: #555;
+            --link-color: #76c7c0;
+            --link-hover-color: #bbded6;
+        }
+
+        /* Theme toggle button styles */
+        .theme-toggle-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: var(--container-bg);
+            color: var(--text-color);
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 1.5em; /* Slightly larger font for emphasis */
+        }
+
+        /* Hover effect for the button */
+        .theme-toggle-btn:hover {
+            background-color: var(--border-color);
+            color: var(--container-bg);
+        }
+
+        /* Body styles using theme variables */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            transition: background-color 0.3s ease; /* Smooth transition for background */
+        }
+
+        /* Transparent background class */
+        .transparent-bg {
+            background-color: transparent !important; /* Ensure transparency */
+        }
+
+        /* Container for layout */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: var(--container-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            position: relative; /* Added to position pseudo-elements */
+        }
+
+        /* Section headings */
+        h1 {
+            color: var(--heading-color);
+            font-size: 2.4em; /* Increased font size for a more impactful title */
+            font-weight: 700; /* Bold weight for emphasis */
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+
+        /* Tombol Ikon di Pojok Kiri Atas */
+        .corner-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #2980b9; /* Warna latar awal tombol */
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover efek untuk tombol */
+        .corner-btn:hover {
+            background-color: transparent; /* Ubah background tombol menjadi transparan saat dihover */
+        }
+
+        /* Responsif terhadap tampilan tombol */
+        @media (max-width: 600px) {
+            .corner-btn {
+                padding: 8px; /* Ukuran tombol lebih kecil di layar kecil */
+            }
+        }
+    </style>
 </head>
 
 <body>
+
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="./test/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        // Create theme toggle button
+        const themeToggleBtn = document.createElement('button');
+        themeToggleBtn.innerHTML = "🌞"; // Start with sun icon
+        themeToggleBtn.className = "theme-toggle-btn";
+        document.body.prepend(themeToggleBtn);
+
+        let darkTheme = false;
+
+        // Toggle theme on button click
+        themeToggleBtn.addEventListener("click", () => {
+            darkTheme = !darkTheme;
+            document.body.classList.toggle("dark-theme", darkTheme);
+            themeToggleBtn.innerHTML = darkTheme ? "🌙" : "🌞"; // Toggle icon
+        });
+
+        // Get the corner button element
+        const cornerBtn = document.getElementById('corner-btn');
+
+        // Toggle body transparency on button click
+        cornerBtn.addEventListener('click', () => {
+            document.body.classList.toggle('transparent-bg');
+
+            // Change background color of the button based on condition
+            if (document.body.classList.contains('transparent-bg')) {
+                cornerBtn.style.backgroundColor = 'transparent'; // Make button transparent
+            } else {
+                cornerBtn.style.backgroundColor = '#2980b9'; // Restore original color
+            }
+        });
+    </script>
+
     <div class="container">
-        <!-- Judul Halaman -->
-        <h1 class="text-center">Portofolio Pribadi</h1>
 
-        <!-- Gambar Profil -->
-        <div class="text-center">
-            <img src="./test/VIRZAN.jpeg"
-                alt="Gambar Profil">
+ <header>
+    <h1 class="text-center typing-effect" id="name">Virzan Pasa Nugraha</h1>
+    <p class="text-center typing-effect" id="title">Web Developer | Digital Innovator</p>
+</header>
+
+
+
+        <div class="profile-section text-center">
+            <img src="./test/VIRZAN.jpeg" alt="Gambar Profil" class="profile-img">
         </div>
 
-        <!-- Tentang Saya -->
-        <h2 class="text-center">Tentang Saya</h2>
-        <p class="text-center">Saya adalah seorang pengembang web yang penuh semangat dan berkomitmen untuk menciptakan pengalaman digital yang menakjubkan. Dengan latar belakang yang kuat dalam desain dan pengembangan, saya berfokus pada inovasi dan kualitas dalam setiap proyek yang saya kerjakan..</p>
-        <blockquote class="text-center">"Jadilah diri sendiri" - Virzan Pasa Nugraha
-        </blockquote>
+        <section class="about-section">
+            <h2 class="text-center">Tentang Saya</h2>
+            <p class="text-center">Saya adalah seorang pengembang web yang penuh semangat dan berkomitmen untuk menciptakan pengalaman digital yang menakjubkan. Dengan latar belakang yang kuat dalam desain dan pengembangan, saya berfokus pada inovasi dan kualitas dalam setiap proyek yang saya kerjakan.</p>
+            <blockquote class="text-center">"Jadilah diri sendiri" - Virzan Pasa Nugraha</blockquote>
+        </section>
 
-        <!-- Pengalaman Kerja -->
-        <h2 class="text-center">Pengalaman Kerja</h2>
-        <table>
-            <tr>
-                <th>Pekerjaan</th>
-                <th>Sekolah</th>
-                <th>Tahun</th>
-            </tr>
-            <tr>
-                <td>Mahasiswa</td>
-                <td>Universitas Sebelas April</td>
-                <td>2024-2025</td>
-            </tr>
-            <tr>
-                <td>Programmer</td>
-                <td>UNSAP</td>
-                <td>2024</td>
-            </tr>
-        </table>
+        <section class="experience-section">
+            <h2 class="text-center">Pengalaman Kerja</h2>
+            <table>
+                <tr>
+                    <th>Pekerjaan</th>
+                    <th>Institusi</th>
+                    <th>Tahun</th>
+                </tr>
+                <tr>
+                    <td>Mahasiswa</td>
+                    <td>Universitas Sebelas April</td>
+                    <td>2024-2025</td>
+                </tr>
+                <tr>
+                    <td>Programmer</td>
+                    <td>UNSAP</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+        </section>
 
-        <!-- Hobi -->
-        <h2>Hobi Saya</h2>
-        <ul>
-            <li>Membaca</li>
-            <li>Olahraga</li>
-            <li>Healing</li>
-        </ul>
-        <ol>
-            <li>Belajar Bahasa Asing</li>
-            <li>Editor</li>
-            <li>Menggambar</li>
-        </ol>
+        <section class="hobbies-section">
+            <h2>Hobi Saya</h2>
+            <ul>
+                <li>Membaca</li>
+                <li>Olahraga</li>
+                <li>Healing</li>
+            </ul>
+            <ol>
+                <li>Belajar Bahasa Asing</li>
+                <li>Editor</li>
+                <li>Menggambar</li>
+            </ol>
+        </section>
 
-        <!-- Audio -->
-        <h2 class="text-center">Lagu Favorit</h2>
-        <audio controls>
-            <source src="./test/BMTH.mp3" type="audio/mpeg">
-            Browser Anda tidak mendukung pemutar audio.
-        </audio>
+        <section class="audio-section text-center">
+            <h2>Lagu Favorit</h2>
+            <audio controls>
+                <source src="./test/BMTH.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung pemutar audio.
+            </audio>
+        </section>
 
-        <!-- Embed Audio -->
-        <div class="audio-embed">
-            <iframe src="#"
-                style="display:block; border-radius: 6px; border: none; height: 204px; width: 600px;"></iframe>
-            <a href='#'
-                style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">embed-musik</a>
-        </div>
+        <section class="video-section text-center">
+            <h2>Video Karya</h2>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/jQHSwpg0PBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
 
-        <!-- Video Karya -->
-        <h2 class="text-center">Video Karya</h2>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/jQHSwpg0PBk" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        
-        <!-- Link ke Media Sosial -->
-        <h2 class="text-center">Ikuti Saya</h2>
-        <p class="text-center">
-            <a href="https://www.instagram.com/vpnc_21th/" target="_blank">Instagram</a> |
-            <a href="https://www.facebook.com/virjan.pn?locale=id_ID" target="_blank">Facebook</a>
-        </p>
-
-        <!-- Footer -->
-        <footer>
-            &copy; 2024 Portofolio Pribadi. Semua hak dilindungi.
+        <section class="social-media-section text-center">
+            <h2>Ikuti Saya</h2>
+            <p>
+                <a href="https://www.facebook.com/virjan.pn?locale=id_ID" target="_blank">
+                    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" class="social-badge" alt="Facebook" />
+                </a>
+                <a href="https://www.instagram.com/vpnc_21th/" target="_blank">
+                    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" class="social-badge" alt="Instagram" />
+                </a>
+                <a href="https://id.pinterest.com/virzann/" target="_blank">
+                    <img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white" class="social-badge" alt="pinterest"/>
+                </a>
+            </p>
+            
+        </section>
+        <footer class="text-center">
+            <p>&copy; 2024 Virzan Pasa Nugraha. All rights reserved.</p>
         </footer>
     </div>
-    <script src="JavaScript.js"></script>
 </body>
-
 </html>

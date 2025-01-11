@@ -1,0 +1,203 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.dark-theme {
+    background: #0D1B2A; /* Latar belakang biru gelap */
+    color: #E0E1DD; /* Warna teks yang lembut */
+}
+
+body.light-theme {
+    background: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Warna teks hitam */
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    background-color: #1B263B; /* Latar belakang kontainer */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid #415A77;
+    transition: transform 0.3s ease; /* Menambahkan transisi untuk efek hover */
+}
+
+body.light-theme .container {
+    background-color: #f0f0f0; /* Latar belakang kontainer terang */
+}
+
+body.dark-theme .container {
+    background-color: #1B263B; /* Latar belakang kontainer gelap */
+}
+
+/* Centered Text */
+.text-center {
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem;
+    color: #AFCBFF; /* Warna biru muda untuk judul utama */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+body.light-theme h1 {
+    color: #333333; /* Warna judul untuk tema terang */
+}
+
+body.dark-theme h1 {
+    color: #AFCBFF; /* Warna judul untuk tema gelap */
+}
+
+/* Sub-header styles */
+h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #E0E1DD; /* Warna perak untuk sub-judul */
+    font-weight: 600;
+}
+
+body.light-theme h2 {
+    color: #333333; /* Warna untuk sub-judul di tema terang */
+}
+
+body.dark-theme h2 {
+    color: #E0E1DD; /* Warna untuk sub-judul di tema gelap */
+}
+
+/* Profile Image */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 5px solid #AFCBFF; /* Warna border yang lebih terang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Membesarkan gambar saat hover */
+}
+
+/* Quote style */
+blockquote {
+    font-style: italic;
+    color: #AFCBFF; /* Warna biru muda untuk quote */
+    padding: 10px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #273B5F; /* Latar belakang biru gelap untuk quote */
+    border-left: 4px solid #AFCBFF; /* Border biru muda */
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Efek animasi saat hover pada quote */
+}
+
+body.light-theme blockquote {
+    background: #D1D9E6; /* Latar belakang terang untuk quote di tema terang */
+    color: #333333; /* Warna teks di tema terang */
+}
+
+blockquote:hover {
+    transform: scale(1.03); /* Membesarkan sedikit saat hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Menambahkan shadow pada quote saat hover */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #E0E1DD; /* Warna teks perak */
+}
+
+th {
+    background-color: #415A77; /* Warna biru gelap untuk header */
+    color: #AFCBFF; /* Warna biru muda untuk header tabel */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background-color: #273B5F; /* Latar belakang biru gelap untuk tabel */
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 20px;
+}
+
+ul li {
+    padding: 8px;
+    color: #AFCBFF; /* Warna biru muda untuk teks list */
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: #778DA9; /* Warna biru gelap pada hover */
+}
+
+ul li::before {
+    content: "◆";
+    color: #778DA9; /* Warna biru untuk ikon list */
+    font-size: 1.2rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Audio and Video */
+audio, iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Link styles */
+a {
+    color: #AFCBFF; /* Warna biru muda untuk link */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #778DA9; /* Warna biru gelap pada hover */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #AFCBFF;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #415A77; /* Border biru untuk footer */
+}

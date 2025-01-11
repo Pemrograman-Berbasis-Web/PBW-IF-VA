@@ -1,0 +1,9 @@
+/* teks pada sel akan di beri poisi tengah */
+td {
+    text-align: center;
+  }
+  
+  /* teks pada baris header tabel akan diberi posisi kiri */
+  th {
+    text-align: left;
+  }

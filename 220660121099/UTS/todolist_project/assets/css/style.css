@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcf95d;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Todo list styling */
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+li.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+li.todo-item.completed {
+  background-color: #e0ffe0;
+  margin: 10px;
+}
+
+li.todo-item:hover {
+  background-color: #f1f1f1;
+}
+
+span.task {
+  flex-grow: 1;
+}
+
+li.todo-item.completed span.task {
+  text-decoration: line-through;
+}
+
+button.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: space-between;
+}
+
+button.mark-completed {
+  background-color: #28a745;
+  color: white;
+}
+
+button.mark-completed:hover {
+  background-color: #218838;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+.add-task-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.new-task-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-task-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}

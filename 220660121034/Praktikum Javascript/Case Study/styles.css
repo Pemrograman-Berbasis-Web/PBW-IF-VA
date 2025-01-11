@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font global */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Kontainer utama */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul halaman */
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Profile section */
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.info {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Tentang Saya */
+.about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    border-bottom: 2px solid #2c3e50;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+blockquote {
+    font-style: italic;
+    margin: 10px 0 20px;
+    padding: 10px;
+    background-color: #c6cde9;
+    border-left: 5px solid #16374d;
+    border-radius: 5px;
+}
+.about blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+.education {
+    text-align: center; /* Semua elemen dalam section rata tengah */
+}
+
+.education h2 {
+    display: inline-block; /* Agar h2 berada dalam blok tunggal */
+    position: relative; 
+    font-size: 1.8rem;
+    margin: 0 auto 20px auto; /* Margin untuk menjaga h2 di tengah */
+    text-align: center; /* Menyusun teks di tengah dalam blok */
+}
+
+/* Garis kecil tepat di bawah teks h2 */
+.education h2::after {
+    content: "";
+    display: block;
+    width: 100%; /* Garis mengikuti panjang teks */
+    height: 2px; /* Ketebalan garis */
+    background-color: #2c3e50; /* Warna garis */
+    margin: 5px auto 0 auto; /* Garis di tengah secara horizontal */
+    max-width: 200px; /* Batas panjang garis agar tidak terlalu panjang */
+}
+
+/* Tabel Pendidikan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hobi */
+.hobbies {
+    text-align: center; /* Menyusun judul di tengah */
+    padding: 20px; /* Padding di dalam section */
+}
+
+.hobbies h2 {
+    display: inline-block; /* Agar h2 diperlakukan sebagai blok tunggal */
+    position: relative; /* Memungkinkan posisi absolut pada pseudo-elemen */
+    font-size: 2rem; /* Ukuran font judul */
+    margin-bottom: 10px; /* Jarak antara judul dan daftar */
+}
+
+/* Garis kecil tepat di bawah teks h2 */
+.hobbies h2::after {
+    content: "";
+    display: block;
+    width: 70%; /* Panjang garis, sesuaikan dengan teks */
+    height: 2px; /* Ketebalan garis */
+    background-color: #2c3e50; /* Warna garis */
+    margin: 5px auto 0; /* Garis di tengah secara horizontal */
+}
+
+/* Mengatur daftar untuk rata kiri */
+.hobbies ul {
+    list-style:disc; /*  bullet point default */
+    text-align: left; /* Rata kiri untuk elemen daftar */
+
+}
+
+/* Mengatur item daftar */
+.hobbies li {
+    margin-bottom: 10px; /* Jarak antara item daftar */
+}
+
+
+
+
+/* Media Section */
+.media {
+    text-align: center;
+    padding: 20px;
+}
+
+.media h2 {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 20px 0 10px;
+    position: relative;
+}
+
+.media h2::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 2px;
+    background: #2c3e50;
+    margin: 5px auto 0;
+}
+
+.media audio,
+.media iframe {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; /* Jarak di atas dan bawah media */
+}
+
+
+
+
+/* Social Media Section */
+.social-media {
+    text-align: center; /* Menyusun judul dan ikon di tengah */
+    padding: 20px; /* Padding di dalam section */
+}
+
+.social-media h2 {
+    display: inline-block; /* Agar h2 diperlakukan sebagai blok */
+    font-size: 2rem; /* Ukuran font judul */
+    margin: 0 0 10px; /* Jarak bawah judul */
+    position: relative; /* Posisi untuk garis */
+}
+
+.social-media h2::after {
+    content: "";
+    display: block;
+    width: 70%; /* Panjang garis */
+    height: 2px; /* Ketebalan garis */
+    background: #2c3e50; /* Warna garis */
+    margin: 5px auto; /* Garis di tengah */
+}
+
+.social-media img {
+    width: 40px; /* Ukuran ikon */
+    height: 40px; /* Ukuran ikon */
+    margin: 0 10px; /* Jarak antar ikon */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}

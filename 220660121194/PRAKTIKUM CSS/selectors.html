@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors CSS</title>
+  <style>
+    /* Selector Element */
+    h1 {
+      color: blue;
+    }
+
+    /* Selector ID */
+    #header {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Selector Class */
+    .teks {
+      font-size: 16px;
+      color: green;
+    }
+
+    /* Selector Universal */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Selector Group */
+    h1,
+    h2 {
+      color: gray;
+    }
+
+    /* Selector Descendant */
+    div p {
+      font-weight: bold;
+    }
+
+    /* Selector Child */
+    div>ul {
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Menggunakan Selector ID -->
+  <div id="header">
+    <h1>Judul Halaman</h1>
+  </div>
+
+  <!-- Menggunakan Selector Class -->
+  <p class="teks">Ini adalah paragraf dengan class "teks".</p>
+
+  <!-- Menggunakan Selector Element dan Selector Group -->
+  <h1>Ini Judul H1</h1>
+  <h2>Ini Judul H2</h2>
+
+  <!-- Menggunakan Selector Descendant -->
+  <div>
+    <p>Paragraf di dalam div</p>
+  </div>
+
+  <!-- Menggunakan Selector Child -->
+  <div>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

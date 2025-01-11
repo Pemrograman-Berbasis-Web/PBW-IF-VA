@@ -1,0 +1,165 @@
+/* Gaya untuk body dan halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Gaya untuk judul */
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Gaya untuk todo list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Gaya untuk setiap item todo */
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+/* Gaya untuk checkbox */
+input[type="checkbox"] {
+    margin-right: 15px;
+    transform: scale(1.5);
+}
+
+/* Gaya untuk task yang selesai (line-through) */
+li.completed {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Gaya untuk tombol Add dan input */
+form input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk link (Delete) */
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Gaya untuk tombol delete berada di kanan */
+a.delete-btn {
+    background-color: #ff4d4d; /* Warna merah */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Efek transisi */
+    margin-left: 10px; /* Memberikan jarak antara teks dan tombol */
+}
+
+a.delete-btn:hover {
+    background-color: #cc0000; /* Warna merah gelap saat hover */
+}
+
+/* Gaya untuk modal (popup konfirmasi) */
+.modal {
+    display: none; /* Sembunyikan modal secara default */
+    position: fixed; /* Menempatkan modal di tengah layar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi transparan */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Pastikan modal muncul di atas konten lainnya */
+}
+
+/* Gaya konten di dalam modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya tombol dalam modal */
+.modal button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Warna tombol 'OK' hijau */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.modal button.cancel {
+    background-color: #f44336; /* Warna tombol 'Cancel' merah */
+}
+
+/* Gaya tombol saat hover */
+.modal button:hover {
+    opacity: 0.8;
+}
+
+/* Responsif: Menyesuaikan ukuran dan layout di perangkat kecil */
+@media (max-width: 600px) {
+    li {
+        font-size: 16px; /* Mengurangi ukuran font pada layar kecil */
+        padding: 10px; /* Mengurangi padding pada perangkat kecil */
+    }
+
+    a.delete-btn {
+        padding: 6px 12px; /* Ukuran tombol lebih kecil di layar kecil */
+    }
+}

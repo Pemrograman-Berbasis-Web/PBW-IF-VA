@@ -1,0 +1,180 @@
+body {
+  font-family: "Eater", sans-serif;
+  background-color: #4693f8;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.todo-card {
+  width: 200px;
+  height: 194px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.todo-card .due-date {
+  font-size: 0.9em;
+  color: #888;
+  text-align: left;
+}
+
+.todo-card .task {
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.2em;
+  color: #333;
+  text-align: left;
+  margin: auto 0;
+}
+
+.todo-card .task s {
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.2em;
+  color: #333;
+  text-decoration-color: blue;
+}
+
+.todo-card .actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.todo-card .actions .icon {
+  color: #333;
+  font-size: 1.2em;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.todo-card .actions .icon:hover {
+  color: #007bff;
+}
+.todo-card.overdue {
+  border: 2px solid red;
+}
+
+.todo-card .due-date {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 700px;
+}
+
+.add-form input[type="text"],
+.add-form .date-input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-form input[type="text"]:focus,
+.add-form .date-input:focus {
+  border-color: #007bff;
+}
+
+.add-form .date-input {
+  width: 150px;
+  text-align: center;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.add-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s;
+}
+
+.add-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style umum untuk form pengeditan */
+/* Style untuk form edit */
+.edit-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 700px; /* Menyesuaikan ukuran form agar tidak terlalu lebar */
+  width: 100%; /* Menjaga lebar agar sesuai dengan container */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style untuk input text di form edit */
+.edit-form input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: "Poppins", sans-serif;
+  width: 45%; /* Mengatur lebar input supaya lebih terkontrol */
+}
+
+/* Focus pada input text */
+.edit-form input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Style untuk tombol submit di form edit */
+.edit-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s;
+  width: 20%; /* Menggunakan lebar yang sama seperti input */
+}
+
+/* Hover effect pada tombol */
+.edit-form button:hover {
+  background-color: #0056b3;
+}

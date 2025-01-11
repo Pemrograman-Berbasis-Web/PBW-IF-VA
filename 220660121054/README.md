@@ -1,9 +1,9 @@
-<p align="right">
-    <a href="https://visitor-badge.laobi.icu/badge?page_id=adriantea1.PBW-IF-VA">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=adriantea1.PBW-IF-VA&title=Dikunjungi" alt="Visitor Badge" />
+<p style="text-align: right;">
+    <a href="https://visitor-badge.laobi.icu/badge?page_id=VirzanPasaNugraha.PBW-IF-VA">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=VirzanPasaNugraha.PBW-IF-VA&title=Dikunjungi" alt="Visitor Badge" />
     </a>
-    <a href="https://github.com/adriantea1/PBW-IF-VA/network/members">
-        <img src="https://img.shields.io/github/forks/adriantea1/PBW-IF-VA?style=social" alt="Forks" />
+    <a href="https://github.com/VirzanPasaNugraha.PBW-IF-VA/network/members">
+        <img src="https://img.shields.io/github/forks/VirzanPasaNugraha/PBW-IF-VA?style=social" alt="Forks" />
     </a>
 </p>
 
@@ -15,14 +15,14 @@
 
 
 <p align="center">
-    <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,react" /></a>
+    <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nodejs,python,java,php,mysql,git,linux,figma,laravel" />
+    </a>
 </p>
 
+
 </h1>
- <p align="center">
-═══ ⋆★⋆ ═══
-    </p>
- 
+
 | **Direktori**               | **Deskripsi**                                       |
 |-----------------------------|-----------------------------------------------------|
 | **github/workflows**         | Konfigurasi otomatisasi dan pipeline CI/CD.         |
@@ -30,6 +30,10 @@
 | **Praktikum02**             | Modul CSS - Berisi file untuk desain dan styling.   |
 | **Praktikum03**             | Modul JavaScript - Berisi file tugas JavaScript dasar. |
 | **Hasil Web Portofolio**    | Tampilan akhir dari portofolio website.             |
+| **Portofolio**              | Berisi Code HTML, CSS, JS                           |
+| **PHP**                     | Modul PHP - berisi file-file tugas                  |
+| **UTS**                     | Berisi tampilan hasil pengerjaan UTS                |
+                                                                                   
 
 **Catatan**: Tabel ini membantu mempermudah navigasi ke bagian-bagian penting dari proyek.
 
@@ -67,4 +71,42 @@
 </a>
 
 </div>
+
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
+  
+  <table>
+    <tr>
+        <!-- Github状态 -->
+        <td>
+ <!-- GitHub Stats for Light Mode -->
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=default#gh-light-mode-only" alt="adriantea1's GitHub stats" />
+</a>
+<!-- GitHub Stats for Dark Mode -->
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=VirzanPasaNugraha&show_icons=true&line_height=28&hide_border=true&card_width=347&theme=dark&bg_color=000000#gh-dark-mode-only" alt="adriantea1's GitHub stats" />
+</a>
+
+<!-- Language Stats for Light Mode -->
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirzanPasaNugraha&layout=compact&langs_count=12&hide_border=true&theme=default#gh-light-mode-only" alt="adriantea1's Language stats" />
+</a>
+<!-- Language Stats for Dark Mode -->
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirzanPasaNugraha&layout=compact&langs_count=12&hide_border=true&theme=dark&bg_color=000000#gh-dark-mode-only" alt="adriantea1's Language stats" />
+</a>
+
+</a>
+</td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=VirzanPasaNugraha&bg_color=011627&color=79d3c3&line=c792ea&point=ffeb95&area=true&hide_border=false" border-radius="15">
+</div>
+<br>
+<p align="center">
+    &copy; 2024 Virzan Pasa Nugraha
+</p>
 

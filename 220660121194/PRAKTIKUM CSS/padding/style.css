@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .box {
+    /* Warna latar belakang */
+    background-color: #fff;
+    /* Border untuk kotak */
+    border: 1px solid #ccc;
+  
+    /* Set padding yang berbeda untuk setiap sisi */
+    /* Atas */
+    padding-top: 10px;
+    /* Kanan */
+    padding-right: 20px;
+    /* Bawah */
+    padding-bottom: 30px;
+    /* Kiri */
+    padding-left: 40px;
+  }

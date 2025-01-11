@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Sigit Pangestu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">Sigit Pangestu</h1>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Halo, Saya Sigit Pangestu</h2>
+                <p>Seorang Web Developer</p>
+                <a href="#about" class="cta-button">Liat Selengkapnya</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <img src="Assets/Image.jpg" alt="Profile of Agung Febrian" class="profile-image">
+                <div class="text-content">
+                    <h3>Tentang Saya</h3>
+                    <p>Saya seorang pengembang web yang bersemangat menciptakan antarmuka yang ramah pengguna dan menarik secara visual.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h3>Pengalaman Kerja</h3>
+            <p>KPPS di Desa Talun Kidul (2024)</p>
+        </section>
+
+        <section id="media" class="media">
+            <h3>Favorite Songs</h3>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Assets/MedleySholawat.mp3" type="audio/mp3">
+                </audio>
+                <audio controls>
+                    <source src="Assets/MedleySholawat.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <h3>Project Video</h3>
+            <iframe width="100%" height="300" src="Assets/WiridBekerja.mp4" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Sigit Pangestu. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/sgtp9" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.cta-button').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('#about').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    </script>
+</body>
+</html>

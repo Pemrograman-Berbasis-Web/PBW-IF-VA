@@ -1,0 +1,204 @@
+/* Reset styling untuk memastikan konsistensi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Video Background */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Menjaga agar video memenuhi seluruh area */
+    z-index: -1; /* Menempatkan video di belakang semua elemen lainnya */
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3em;
+    z-index: 1; /* Agar tetap di atas video */
+}
+
+/* Bagian To-Do List */
+.todo-section {
+    margin-bottom: 40px; /* Ruang antar section */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Efek transparansi */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Agar tetap di atas video */
+}
+
+.todo-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form input dan select */
+.todo-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-form input, .todo-form select, .todo-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.todo-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-form button:hover {
+    background-color: #45a049;
+}
+
+/* Tabel To-Do List */
+.todo-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.todo-list th, .todo-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.todo-list th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.todo-list tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+/* Bagian Histori */
+.history-section {
+    padding: 20px;
+    background-color: rgba(233, 247, 253, 0.8); /* Transparansi dengan warna biru muda */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Agar tetap di atas video */
+}
+
+.history-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Tabel Histori */
+.history-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-list th, .history-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.history-list th {
+    background-color: #007BFF;
+    color: white 
+}
+/* CSS untuk teks putih saat tombol diklik */
+.white-text {
+    color: white !important;
+}
+/* CSS untuk menyembunyikan background pada tabel */
+.background-hidden .todo-list,
+.background-hidden .history-list {
+    background: none;
+}
+
+/* Button Styling */
+.toggle-btn {
+    display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ /* Animasi ketika tombol ditekan */
+ .toggle-btn:active {
+    transform: scale(0.9) rotate(10deg); /* Mengecil sedikit dan berotasi */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+}
+  /* Gambar di dalam tombol */
+  .toggle-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+}
+ /* Rotasi gambar ketika tombol ditekan */
+ .toggle-btn.active img {
+    transform: rotate(180deg); /* Rotasi 180 derajat */
+}
+
+/* Background visibility toggling */
+.background-hidden .todo-section,
+.background-hidden .history-section {
+    background: none;
+    box-shadow: none;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.history-list tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .todo-form {
+        gap: 8px;
+    }
+
+    .todo-form input, .todo-form select, .todo-form button {
+        font-size: 14px;
+    }
+
+    .todo-list, .history-list {
+        font-size: 14px;
+    }
+}

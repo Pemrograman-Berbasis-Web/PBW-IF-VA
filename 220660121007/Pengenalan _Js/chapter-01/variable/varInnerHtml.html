@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menyematkan Variabel dengan InnerHTML</title>
+  </head>
+  <body>
+    <h1>Variabel dan Nilainya</h1>
+    <div id="result"></div>
+    <script>
+      let name = "Pemrograman Berbasis Web";
+      let visitorCount = 50322;
+      let isActive = true;
+      const resultElement = document.getElementById("result");
+
+      // Menggunakan backticks untuk string template literal
+      resultElement.innerHTML += `
+        <p>Nama Situs: ${name}</p>
+        <p>Jumlah Pengunjung: ${visitorCount}</p>
+        <p>Status Aktif: ${isActive.toString()}</p>
+      `;
+
+      console.log(name, visitorCount, isActive);
+    </script>
+    <button onclick="showAlert()">Show Alert</button>
+    <script>
+      function showAlert() {
+        // Menggunakan backticks untuk string template literal
+        alert(`Selamat datang di ${name}`);
+      }
+    </script>
+  </body>
+</html>
