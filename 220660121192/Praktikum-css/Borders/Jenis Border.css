@@ -1,0 +1,13 @@
+/* solid - garis lurus dan solid.
+dashed: garis putus-putus.
+dotted: garis titik-titik.
+double: garis ganda.
+groove: garis bercorak tiga dimensi seperti terlihat dari dalam lubang.
+ridge: garis bercorak tiga dimensi seperti terlihat dari luar lubang.
+inset: garis bercorak tiga dimensi seperti terlihat masuk ke dalam lubang.
+outset: garis bercorak tiga dimensi seperti terlihat keluar dari lubang. */
+
+/* Mengatur border dengan jenis dashed */
+#contoh {
+    border-style: dashed;
+  }
