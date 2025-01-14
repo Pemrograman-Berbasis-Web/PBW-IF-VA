@@ -3,18 +3,13 @@
 ---
 
 ## **1. Testing Laravel dengan `php artisan test`**  
-Laravel diuji menggunakan perintah:  
-```bash
-php artisan test
-```
-
-Hasil pengujian:  
-![Testing Laravel - All Tests Passed](https://i.imgur.com/jCqYLHV.png)  
+Hasil:  
+![Testing Laravel - All Tests Passed](https://i.imgur.com/34sDObK.png)  
 
 ---
 
 ## **2. Welcome Page Laravel**  
-Halaman awal Laravel yang secara default dapat diakses di `http://127.0.0.1:8000`.  
+Laravel yang dapat diakses di `http://127.0.0.1:8000`.  
 
 Tampilan halaman:  
 ![Welcome Page Laravel](https://i.imgur.com/1B3opG1.png)
@@ -40,8 +35,11 @@ Tampilan halaman **Dashboard**:
 ---
 
 ## **6. Manage Posts Laravel**  
-Tampilan halaman **Manage Posts**:  
-![Manage Posts Page](https://i.imgur.com/WiEAKzM.png)
+Create post:  
+![Create New Post](https://i.imgur.com/8DXgjgk.png)
+
+Manage Posts:
+![Hasil Create](https://i.imgur.com/nK5NEbk.png)
 
 ---
 
@@ -52,5 +50,5 @@ Tampilan halaman **Profile**:
 ---
 
 ## **8. Database MySQL**  
-Struktur database di MySQL:  
-![Database Structure](https://i.imgur.com/984xt1w.png)
+Di database sudah ter-update:  
+![Database Structure](https://i.imgur.com/EgV8pZ3.png)
