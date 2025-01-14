@@ -1,0 +1,4 @@
+a:hover {
+    color: #2980b9; /* Warna saat mouse hover */
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}

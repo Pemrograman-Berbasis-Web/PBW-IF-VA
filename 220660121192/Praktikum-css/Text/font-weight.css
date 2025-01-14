@@ -1,0 +1,9 @@
+/* element h1 akan memiliki font weight bold */
+h1 {
+    font-weight: bold;
+  }
+  
+  /* element p akan mimiliki font weight ukuran 300 */
+  p {
+    font-weight: 300;
+  }
