@@ -6,80 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Pribadi</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <!-- Judul Halaman -->
-        <h1 class="text-center">(CONTOH)Portofolio Pribadi  </h1>
+        <header>
+            <h1 class="title">Portofolio Pribadi</h1>
+        </header>
 
         <!-- Gambar Profil -->
-        <div class="text-center">
-            <img src="src/image/Picsart_23-11-10_08-08-18-839.png" width="400"
-                alt="Gambar Profil">
+        <div class="profile-section">
+            <img class="profile-image" src="src/image/Picsart_23-11-10_08-08-18-839.png" alt="Gambar Profil">
         </div>
 
         <!-- Tentang Saya -->
-        <h2 class="text-center">Tentang Saya</h2>
-        <p class="text-center">Selamat datang di portofolio saya! Saya adalah seorang pengembala domba yang penuh
-            semangat.</p>
-        <blockquote class="text-center">"ARIF SANG PENGGEMBALA." 
-        </blockquote>
+        <section class="about-section">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="description">Selamat datang di portofolio saya! Saya adalah seorang pengembala domba yang penuh
+                semangat.</p>
+            <blockquote>"ARIF SANG PENGGEMBALA."</blockquote>
+        </section>
 
         <!-- Pengalaman Kerja -->
-        <h2 class="text-center">Pengalaman Kerja</h2>
-        <table>
-            <tr>
-                <th>Posisi</th>
-                <th>Perusahaan</th>
-                <th>Tahun</th>
-            </tr>
-            <tr>
-                <td>Pencari rumput</td>
-                <td>peternakan</td>
-                <td>2019-sekarang</td>
-            </tr>
-            <tr>
-                <td>Junior</td>
-                <td>PT. CPS</td>
-                <td>2023-sekarang</td>
-            </tr>
-        </table>
+        <section class="experience-section">
+            <h2 class="section-title">Pengalaman Kerja</h2>
+            <table class="experience-table">
+                <thead>
+                    <tr>
+                        <th>Posisi</th>
+                        <th>Perusahaan</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pencari Rumput</td>
+                        <td>Peternakan</td>
+                        <td>2019 - Sekarang</td>
+                    </tr>
+                    <tr>
+                        <td>Junior</td>
+                        <td>PT. CPS</td>
+                        <td>2023 - Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
         <!-- Hobi -->
-        <h2>Hobi Saya</h2>
-        <ul>
-            <li>berternak</li>
-            <li>bertani</li>
-            <li>berniaga peternakan</li>
-            <li>berbisnis</li>
-            <li>otomotif</li>
-        </ul>
-        <ol>
-            <li>olahraga bulutangkis</li>
-            <li>bersepeda</li>
-           
-        </ol>
+        <section class="hobbies-section">
+            <h2 class="section-title">Hobi Saya</h2>
+            <ul class="hobbies-list">
+                <li>Berternak</li>
+                <li>Bertani</li>
+                <li>Bernisaga Peternakan</li>
+                <li>Berbisnis</li>
+                <li>Otomotif</li>
+            </ul>
+            <ol class="hobbies-list-numbered">
+                <li>Olahraga Bulutangkis</li>
+                <li>Bersepeda</li>
+            </ol>
+        </section>
 
         <!-- Audio -->
-        <h2 class="text-center">Suara favorit</h2>
-        <audio controls>
-            <source src="src/music/AAUUGGHHHHHHHHH Extremely loud meme sound effect.wav" type="audio/mpeg">
-            Browser Anda tidak mendukung pemutar audio.
-        </audio>
+        <section class="audio-section">
+            <h2 class="section-title">Suara Favorit</h2>
+            <audio controls>
+                <source src="src/music/AAUUGGHHHHHHHHH Extremely loud meme sound effect.wav" type="audio/mpeg">
+                Browser Anda tidak mendukung pemutar audio.
+            </audio>
+        </section>
 
-        <!-- Video Karya -->
-        <h2 class="text-center">Video tontonan</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jCduut1fhig?si=7Z3egVZHTWt5eUbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Video -->
+        <section class="video-section">
+            <h2 class="section-title">Video Tontonan</h2>
+            <iframe class="video-embed" width="560" height="315" src="https://www.youtube.com/embed/jCduut1fhig?si=7Z3egVZHTWt5eUbE"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
 
-        <!-- Link ke MediaSosial -->
-        
-            <a href="https://www.linkedin.com/in/arif-firmansyah-b176732a4/" target="_blank">LinkedIn</a>
-        </p>
+        <!-- Media Sosial -->
+        <section class="social-section">
+            <h2 class="section-title">Media Sosial</h2>
+            <a class="social-link" href="https://www.linkedin.com/in/arif-firmansyah-b176732a4/" target="_blank">LinkedIn</a>
+        </section>
 
         <!-- Footer -->
         <footer>
-            &copy; 2024 Portofolio Pribadi. Semua hak dilindungi oleh diri saya sendiri.
+            <p>&copy; 2024 Portofolio Pribadi. Semua hak dilindungi oleh diri saya sendiri.</p>
         </footer>
     </div>
 </body>
