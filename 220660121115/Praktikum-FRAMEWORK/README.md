@@ -4,7 +4,7 @@
 
 **Database SQL**  
 
-   ![Database Structure](https://imgur.com/7OzdbGU.png)
+   ![Database Structure](https://i.imgur.com/ZKPjOeu.png)
 
 **Welcome Laravel**  
 
@@ -24,7 +24,11 @@
 
 **Posts**  
 
-   ![Posts Page](https://imgur.com/Z1nJtVr.png)
+    Create:
+   ![Posts Page](https://i.imgur.com/rn107C2.png)
+
+   Hasil di Manage Posts:
+   ![Manage Posts](https://i.imgur.com/HcvhwFh.png)
 
 **Profile**  
 
@@ -32,4 +36,4 @@
 
 **Testing**  
 
-   ![Profile Page](https://imgur.com/ue39Fxo.png)
+   ![Profile Page](https://i.imgur.com/8WgNs2K.png)
