@@ -1,0 +1,96 @@
+/* Mengatur tampilan latar belakang */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Judul */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Daftar Todo */
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 400px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+#todo-list li:last-child {
+  border-bottom: none;
+}
+
+#todo-list li a {
+  color: #ff6f61;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+#todo-list li a:hover {
+  color: #ff3d2e;
+}
+
+/* Form tambah Todo */
+#add-form {
+  display: flex;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+#add-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ff6f61;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+#add-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#add-form button:hover {
+  background: #ff3d2e;
+}
+
+/* Efek saat Todo selesai */
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
