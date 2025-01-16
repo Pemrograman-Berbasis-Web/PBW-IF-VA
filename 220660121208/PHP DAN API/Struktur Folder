@@ -1,7 +1,0 @@
-UTS/
-├── index.php            # Entry point aplikasi
-├── TodoController.php   # Logika kontrol untuk mengelola Todos
-├── listtodos.php        # Tampilan utama Todo List
-├── styles.css           # Desain antarmuka
-├── .htaccess            # Konfigurasi routing
-└── database.sql         # File SQL untuk membuat tabel database
