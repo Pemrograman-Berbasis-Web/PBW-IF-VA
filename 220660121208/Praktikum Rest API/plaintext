@@ -1,0 +1,11 @@
+todolist-api/
+├── config.php
+├── index.php
+├── api/
+│   ├── create.php
+│   ├── read.php
+│   ├── update.php
+│   ├── delete.php
+├── database/
+│   └── todolist.sql
+├── README.md
