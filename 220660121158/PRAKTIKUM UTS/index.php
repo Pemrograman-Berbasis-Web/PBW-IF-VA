@@ -26,14 +26,6 @@ $result = $conn->query("SELECT * FROM mahasiswa");
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Profil Pembuat -->
-    <div class="profile">
-        <img src="assets/Deden Adi TI.jpg" alt="Foto Pembuat" class="profile-pic">
-        <h2>Pembuat: Deden Adi Mardian Lesmana</h2>
-        <p>NIM: 220660121158</p>
-        <p>Kelas: IF - VA</p>
-    </div>
-
     <h2>Data Mahasiswa</h2>
 
     <?php if (isset($success)): ?>
